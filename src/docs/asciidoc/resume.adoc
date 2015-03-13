@@ -43,11 +43,11 @@ He is actually a software engineer at {link-procergs}[PROCERGS]. +
 
 He is passionate about IT and +Open Source+ so he contributes to {link-resume}#open-source[Open Source projects] in many ways. +
 
-Rafael attends and speaks at {resume-url}#conferences-presentations[conferences] on *Java EE*, like The developers conference and also give talks at {link-rsjug}[local Jug]. +
+Rafael attends and speaks at {resume-url}#conferences-presentations[conferences] on *Java EE*, like The Developers Conference and also give talks at {link-rsjug}[local Jug]. +
 
-He blogs about Java EE and related technologies on {link-blog}[his personal blog].
+He blogs about Java EE and related technologies on his {link-blog}[personal blog].
 
-He's mainly working with Java enterprise web related technologies for about 7 years, has experience with agile methodologies and strong background on many kinds of testing technologies.
+He's mainly working with Java enterprise web related technologies for about 7 years, has experience with agile methodologies and strong background on testing.
 
 ****
 
@@ -56,7 +56,7 @@ He's mainly working with Java enterprise web related technologies for about 7 ye
 * Java EE development
 * Open source
 * Agile methodologies
-* Testing (junit/Arquillian)
+* Testing (junit/Arquillian/BDD)
 * Continuous Delivery
 * SOA / Microservices
 * Docker and containers related technologies
