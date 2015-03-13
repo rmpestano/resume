@@ -1,0 +1,28 @@
+
+=== DevNation, San Francisco, April 2014
+
+* Beer and BOF
+** http://www.devnation.org/#bofWildfly8[_Wildfly 8 New features_, role="external", window="_blank"] with http://twitter.com/arungupta[Arun Gupta, role="external", window="_blank"] and http://twitter.com/jtgreene[Jason Greene, role="external", window="_blank"]
+
+* *_Real-time collaborative editor for AsciiDoc - When WebSocket met Asciidoctor_* - http://www.devnation.org/#websocketAsciidoctor[Session info, role="external", window="_blank"]
+** icon:file[] http://fr.slideshare.net/mgreau/real-time-collaborative-editor-for-asciidoc[Slides WebSocket/Asciidoctor @ *Slideshare*, role="external", window="_blank"]
+** icon:code[] https://github.com/mgreau/when-websocket-met-asciidoctor[Source code @ *Github*, role="external", window="_blank"]
+** icon:cloud-download[] https://registry.hub.docker.com/u/mgreau/ad-editor/[Docker Image @ *DockerHub*, role="external", window="_blank"]
+
+=== JUG, Nantes, February 2014
+
+* *_When WebSocket met Asciidoctor_* - http://nantesjug.org/#/events/2014_02_17[Session info, role="external", window="_blank"]
+** icon:youtube[] http://youtu.be/2XJo3UmT80U[Vidéo WebSocket/Asciidoctor @ *Youtube*, role="external", window="_blank"]
+** icon:code[] https://github.com/mgreau/when-websocket-met-asciidoctor[Source code @ *Github*, role="external", window="_blank"]
+
+=== DevFest, Nantes, November 2012
+
+* *_Google Cloud Endpoints_* - http://devfest2012.gdgnantes.com/sessions[Session info]
+** icon:file[] http://fr.slideshare.net/mgreau/google-cloud-endpoints-dev-fest-nantes2012[Slides Google Cloud Endpoints DevFest @ *Slideshare*, role="external", window="_blank"]
+** icon:youtube[] https://www.youtube.com/watch?v=qbphOvgKcgg&feature=plcp[Vidéo Google Cloud Endpoints DevFest @ *Youtube*, role="external", window="_blank"]
+** icon:code[] https://github.com/mgreau/appengine-endpoints-booking[Source Code @ *Github*, role="external", window="_blank"]
+
+=== Technical presentation, Nantes, 2011
+
+* Presentation of my *Apache Maven Book* at SII Nantes office and NeoSoft Nantes office - FR
+** icon:file[] http://fr.slideshare.net/mgreau/apache-maven-3[Slides Apache Maven 3 @ *Slideshare*, role="external", window="_blank"]

@@ -1,0 +1,190 @@
+= Curriculum Vitae - Rafael M. Pestano
+Rafael Pestano <rmpestano@gmail.com>
+v1.0, March 13, 2015
+:icons: font
+:linkattrs:
+:sectanchors:
+:sectlink:
+:experimental:
+:source-language: asciidoc
+:includedir: _includes
+
+// Refs
+:link-resume: http://rmpestano.github.io/resume
+:link-twitter: https://twitter.com/realpestano
+
+
+:link-procergs: http://www.procergs.rs.gov.br/
+:link-jfrs: www.jfrs.jus.br/
+:link-adv: www.advancedit.com.br/
+:link-ecore: e-core.com/br/
+
+:link-home: https://goo.gl/maps/NpRTv
+:link-rsjug: http://www.rsjug.org/
+
+
+//projects
+:link-github: https://github.com/rmpestano
+:link-conventions: https://github.com/conventions
+
+//writting
+:link-blog: http://rpestano.wordpress.com
+:link-thesis: http://www.lume.ufrgs.br/handle/10183/110332
+
+[discrete]
+== Software Engineer / Developer
+
+****
+I'm looking for a *Software Engineer/Developer position* based on *Java EE* platform and related technologies. +
+I would like to focus my work on coding/testing, deal with infrastructure (devops), prospecting new technologies and evangelizing/sharing knowledge with teammates and also community.+
+
+Rafael has a bachelor degree of {link-resume}#education[Computer Science] and is a Software Developer/Engineer since *2007*. +
+He is actually a software engineer at {link-procergs}[PROCERGS]. +
+
+He is passionate about IT and +Open Source+ so he contributes to {link-resume}#open-source[Open Source projects] in many ways. +
+
+Rafael attends and speaks at {resume-url}#conferences-presentations[conferences] on *Java EE*, like The developers conference and also give talks at {link-rsjug}[local Jug]. +
+
+He blogs about Java EE and related technologies on {link-blog}[his personal blog].
+
+He's mainly working with Java enterprise web related technologies for about 7 years, has experience with agile methodologies and strong background on many kinds of testing technologies.
+
+****
+
+== Main interests
+
+* Java EE development
+* Open source
+* Agile methodologies
+* Testing (junit/Arquillian)
+* Continuous Delivery
+* SOA / Microservices
+* Docker and containers related technologies
+* Documentation (Asciidoctor)
+
+== Personal details
+
+
+_Name_: Rafael Mauricio Pestano +
+_WebSite / Social Media_: {link-blog}[blog] / {link-github}[(GitHub)] / {link-twitter} (twitter) +
+_Location_: {link-home}["Porto Alegre, RS, Brazil", role="external", window="_blank"] +
+
+
+== Professional Experience
+
+=== Java EE Engineer / Developer at Procergs
+
+icon:calendar[title="Period"] _August 2011 to Now (On going)_ +
+icon:group[title="Employe"] {link-procergs}[PROCERGS - Data processing company of the State of Rio Grande do Sul, role="external", window="_blank"] +
+
+--
+[horizontal]
+Position:: *Software Engineer - Java EE - Agile - DevOps* +
+--
+
+* Create and maintain in house JavaEE 6+ based solutions for speed up development
+* Part of a Technical team which supports 300+ developers
+* Prospecting new technologies (R&D)
+* Evangelizing good practice and disciplines of agile methodologies such as testing and continuous delivery
+* Migration of legacy technology to service based architecture
+* worked 3 years (2011-2014) in internal software factory using scrum
+
+==== Used technologies
+
+* JavaEE 6 stack:
+** JSF 2.1
+** CDI 1.0
+** JPA 2.1 (Hibernate 4.x)
+** EJB 3.1
+** JaxRS and JaxWS
+* Arquillian / Cucumber / Selenium / Junit (tests)
+* Asciidoctor (Documentation)
+* Swagger (REST API)
+* JBoss EAP 6 (application server)
+* SVN
+* OracleDB
+
+== Technical Skills
+
+Languages and Specifications:: Java SE, *Java EE* (BV, JPA, EJB, CDI, Servlet, JSP), J2EE, JavaScript, XML, CSS, AsciiDoc
+
+Application Servers:: *JBoss EAP 6*, *WildFly 8*, Glassfish, Bea Weblogic and Apache Tomcat
+
+Frameworks and Libraries:: *Arquillian*, JBoss Forge, Asciidoctor
+
+OS:: Linux (Ubuntu) and Windows
+
+Databases:: Oracle, Postgress, MySQL and HSQLDB
+
+Software Engineering:: SOA, DevOps, Design Patterns, Unit Testing, Integration Testing, Continuous Delevery
+
+Tools:: Eclipse, IntelliJ, Maven, JIRA, Redemine, Subversion, *Git*, Asciidoctor, JMeter, Jenkins, Sonar, Artifactory
+
+== Open Source
+
+Lead Software Developer of "RTCE for Asciidoc"::
+*Real time collaborative editor for AsciiDoc* is an editor developed with a bunch of technologies : Asciidoctor (JS and Java), Java EE 7 (WebSocket, JSON-P, CDI, EJB), HTML5, and Arquillian
+
+Contribute to projects::
+I contribute in a different ways (code, documentation, blog, forums, conference and experimenting /opening issues) to severals projects like Asciidoctor, Arquillian, JBoss Forge and Deltaspike.
+
+== Technical Writing
+
+=== Publications
+
+==== Graduation Thesis
+[.left.text-center]
+
+
+==== Technical Reviewer
+
+[.left.text-center]
+image::timeline/javaee7_book.jpg[Java EE 7 Development with WildFly, role="external", window="_blank"]
+
+icon:calendar[title="Period"] _October 2014_  - icon:book[role="blue"]  https://www.packtpub.com/java-ee-7-development-with-wildfly/book[Java EE 7 Development with WildFly, role="external", window="_blank"] +
+PacktPub - English - 450 pages
+
+==== Book Author
+
+[.left.text-center]
+image::timeline/apache_maven.jpg[Apache Maven 3, role="external", window="_blank"]
+
+icon:calendar[title="Period"] _June 2011_ - icon:book[role="blue"] http://www.amazon.fr/Apache-Maven-Ma%C3%AEtrisez-linfrastructure-projet/dp/2746065096/[_Apache Maven - Maîtrisez l'infrastructure d'un projet Java EE_, role="external", window="_blank"] +
+http://www.editions-eni.fr/livres/apache-maven-maitrisez-l-infrastructure-d-un-projet-java-ee/.0e08f6a9b7a86a68db1f95dbeca00741.html[Editions ENI, role="external", window="_blank"] - French - 412 pages - 6 Chapters
+
+=== Blog
+
+I wrote some blog posts on my website at http://mgreau.com/blog.html[mgreau.com, role="external", window="_blank"] and I'm also a http://www.javacodegeeks.com/author/maxime-greau/[Java Code Geek member, role="external", window="_blank"].
+
+== Conferences & Presentations
+
+* DevNation, San Francisco, April 2014
+** BOF http://www.devnation.org/#bofWildfly8[_Wildfly 8 New features_, role="external", window="_blank"] with http://twitter.com/arungupta[Arun Gupta, role="external", window="_blank"] and http://twitter.com/jtgreene[Jason Greene, role="external", window="_blank"]
+** *_Real-time collaborative editor for AsciiDoc - When WebSocket met Asciidoctor_* - http://www.devnation.org/#websocketAsciidoctor[Session info, role="external", window="_blank"]
+
+* JUG, Nantes, February 2014
+** *_When WebSocket met Asciidoctor_* - http://nantesjug.org/#/events/2014_02_17[Session info, role="external", window="_blank"]
+
+* DevFest, Nantes, November 2012
+** *_Google Cloud Endpoints_* - http://devfest2012.gdgnantes.com/sessions[Session info, role="external", window="_blank"]
+
+* Technical presentation, Nantes, 2011
+** Presentation of my *Apache Maven Book* in SII and NeoSoft offices.
+
+== Languages Skills
+
+* Portuguese : native language
+* English : fluent (reading, writting); intermediate (speaking)
+
+== Education
+
+=== CFSA, CHÂTEAUROUX (36), FRANCE
+
+icon:calendar[title="Period"] _2003-2005_ - *Master Degree*  - _Valedictorian_ +
+CDILA – Developer in Software Engineering by Alternance
+
+== Interests
+
+* Sport : Football (soccer), Running, Strength Training
+* TV Shows, Cinema
+* New technologies, Open Source
