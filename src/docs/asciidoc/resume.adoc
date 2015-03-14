@@ -106,27 +106,25 @@ Position:: *Software Engineer - Java EE - Agile - DevOps* +
 
 == Technical Skills
 
-Languages and Specifications:: Java SE, *Java EE* (BV, JPA, EJB, CDI, Servlet, JSP), J2EE, JavaScript, XML, CSS, AsciiDoc
+Languages and Specifications:: Java SE, *Java EE* (JSF, BV, JPA, EJB, CDI, Servlet, JSP), J2EE, JavaScript, XML, CSS, AsciiDoc
 
 Application Servers:: *JBoss EAP 6*, *WildFly 8*, Glassfish, Bea Weblogic and Apache Tomcat
 
-Frameworks and Libraries:: *Arquillian*, JBoss Forge, Asciidoctor
+Frameworks and Libraries:: *Arquillian*, JBoss Forge, Apache DeltaSpike, Primefaces, Richfaces
 
 OS:: Linux (Ubuntu) and Windows
 
 Databases:: Oracle, Postgress, MySQL and HSQLDB
 
-Software Engineering:: SOA, DevOps, Design Patterns, Unit Testing, Integration Testing, Continuous Delevery
+Software Engineering:: SOA, DevOps, Design Patterns, Unit Testing, Integration Testing, BDD, Continuous Delivery
 
-Tools:: Eclipse, IntelliJ, Maven, JIRA, Redemine, Subversion, *Git*, Asciidoctor, JMeter, Jenkins, Sonar, Artifactory
+Tools:: Eclipse, IntelliJ, Netbeans, Maven, JIRA, Redemine, Subversion, *Git*, Asciidoctor, JMeter, Jenkins, Sonar, Artifactory
 
 == Open Source
 
-Lead Software Developer of "RTCE for Asciidoc"::
-*Real time collaborative editor for AsciiDoc* is an editor developed with a bunch of technologies : Asciidoctor (JS and Java), Java EE 7 (WebSocket, JSON-P, CDI, EJB), HTML5, and Arquillian
 
 Contribute to projects::
-I contribute in a different ways (code, documentation, blog, forums, conference and experimenting /opening issues) to severals projects like Asciidoctor, Arquillian, JBoss Forge and Deltaspike.
+I contribute in a different ways (code, documentation, blog, forums, conference,experimenting and opening issues) to severals projects like Asciidoctor, Arquillian, JBoss Forge and Deltaspike.
 
 == Technical Writing
 
@@ -135,22 +133,7 @@ I contribute in a different ways (code, documentation, blog, forums, conference 
 ==== Graduation Thesis
 [.left.text-center]
 
-
-==== Technical Reviewer
-
-[.left.text-center]
-image::timeline/javaee7_book.jpg[Java EE 7 Development with WildFly, role="external", window="_blank"]
-
-icon:calendar[title="Period"] _October 2014_  - icon:book[role="blue"]  https://www.packtpub.com/java-ee-7-development-with-wildfly/book[Java EE 7 Development with WildFly, role="external", window="_blank"] +
-PacktPub - English - 450 pages
-
-==== Book Author
-
-[.left.text-center]
-image::timeline/apache_maven.jpg[Apache Maven 3, role="external", window="_blank"]
-
-icon:calendar[title="Period"] _June 2011_ - icon:book[role="blue"] http://www.amazon.fr/Apache-Maven-Ma%C3%AEtrisez-linfrastructure-projet/dp/2746065096/[_Apache Maven - Maîtrisez l'infrastructure d'un projet Java EE_, role="external", window="_blank"] +
-http://www.editions-eni.fr/livres/apache-maven-maitrisez-l-infrastructure-d-un-projet-java-ee/.0e08f6a9b7a86a68db1f95dbeca00741.html[Editions ENI, role="external", window="_blank"] - French - 412 pages - 6 Chapters
+ {link-thesis}[Towards a Software Metric for OSGi, role="external", window="_blank"] - Quality analysis in modular applications.
 
 === Blog
 
