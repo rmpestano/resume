@@ -1,3 +1,3 @@
-= Rafeael M. Pestano Resume
+= [Rafeael M. Pestano Resume] (http://rmpestano.github.io/)
 
 Based on Maxime Gréaun resume http://mgreau.com/resume/resume.html
