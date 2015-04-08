@@ -217,8 +217,8 @@ I contribute in a different ways (code, documentation, blog, forums, conference,
 
 Some of my open source activities can be found here:
 
-* :{link-github}[Github account]: general activity
-* :{link-conventions}[Conventions framework]: Academical homegrown framework I maintain for learning Java EE.
+* {link-github}[Github account]: General activity
+* {link-conventions}[Conventions framework]: Academical homegrown framework I maintain for learning Java EE.
 
 
 == Technical Writing
