@@ -47,14 +47,14 @@ endif::[]
 I'm looking for a *Software Engineer/Developer position* based on *Java EE* platform and related technologies. +
 I would like to focus my work on coding/testing, deal with infrastructure (devops), prospecting new technologies, evangelizing and sharing knowledge with teammates and also community.
 
-Rafael has a bachelor degree of {link-resume}/#education[Computer Science] and is a Software Developer/Engineer since *2007*. +
-He is actually a software engineer at {link-procergs}[PROCERGS]. +
+Rafael has a bachelor degree of {link-resume}/#_education[Computer Science] and is a Software Developer/Engineer since *2007*. +
+He is actually a software engineer at {link-procergs}[PROCERGS^]. +
 
-He is passionate about IT and +Open Source+ so he contributes to {link-resume}#open-source[Open Source projects] in many ways. +
+He is passionate about IT and +Open Source+ so he contributes to {link-resume}#_open_source[Open Source projects] in many ways. +
 
-Rafael attends and speaks at {link-resume}/#conferences-presentations[conferences] on *Java EE*, like The Developers Conference and also give talks at {link-rsjug}[local Jug]. +
+Rafael attends and speaks at {link-resume}/#_conferences_presentations[conferences] on *Java EE*, like The Developers Conference and also give talks at {link-rsjug}[local Jug^]. +
 
-He blogs about Java EE and related technologies on his {link-blog}[personal blog].
+He blogs about Java EE and related technologies on his {link-blog}[personal blog^].
 
 He's mainly working with Java enterprise web related technologies for about 7 years, has experience with agile methodologies and strong background on testing.
 
@@ -75,7 +75,7 @@ He's mainly working with Java enterprise web related technologies for about 7 ye
 
 
 _Name_: Rafael Mauricio Pestano +
-_WebSite / Social Media_: {link-blog}[blog] / {link-github}[(GitHub)] / {link-twitter}[(twitter)] +
+_WebSite / Social Media_: {link-blog}[blog] / {link-github}[(GitHub)^] / {link-twitter}[(twitter)^] +
 _Location_: {link-home}["Porto Alegre, RS, Brazil", role="external", window="_blank"] +
 
 
@@ -198,7 +198,7 @@ Languages and Specifications:: Java SE, *Java EE* (JSF, BV, JPA, EJB, CDI, Servl
 
 Application Servers:: *JBoss EAP 6*, *WildFly 8*, Glassfish, Bea Weblogic and Apache Tomcat
 
-Frameworks and Libraries:: *Arquillian*, JBoss Forge, *Apache DeltaSpike*, Primefaces, Richfaces
+Frameworks and Libraries:: http://arquillian.org[*Arquillian*^], http://forge.jboss.org/[JBoss Forge^], https://deltaspike.apache.org/[*Apache DeltaSpike*^], http://primefaces.org[Primefaces^], Richfaces
 
 OS:: Linux (Ubuntu) and Windows
 
