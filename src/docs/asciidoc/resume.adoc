@@ -62,7 +62,7 @@ He's mainly working with Java enterprise web related technologies for about 7 ye
 
 == Main interests
 
-* Java EE development
+* Java EE
 * Open source
 * Agile methodologies
 * Testing (junit/Arquillian/BDD)
@@ -206,7 +206,7 @@ Databases:: Oracle, Postgress, MySQL and HSQLDB
 
 Software Engineering:: SOA, DevOps, Design Patterns, Unit Testing, Integration Testing, BDD, Continuous Delivery
 
-Tools:: Eclipse, IntelliJ, Netbeans, Maven, JIRA, Redemine, Subversion, *Git*, Asciidoctor, JMeter, Jenkins, Sonar, Artifactory
+Tools:: Eclipse, *IntelliJ*, Netbeans, Maven, JIRA, Redmine, Subversion, *Git*, *Asciidoctor*, JMeter, Jenkins, Sonar, Artifactory
 
 Cloud:: Openshift, travisci, codeship
 
