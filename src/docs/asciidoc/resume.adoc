@@ -164,7 +164,7 @@ Position:: *Java Developer* +
 * Jasper reports
 * MySql
 
-=== Java trainee at Federal (JFRS)
+=== Java trainee at JFRS
 
 icon:calendar[title="Period"] _October 2008 to April 2010_ +
 icon:group[title="Trainee"] {link-jfrs}[JFRS - Justiça Federal, role="external", window="_blank"] +
@@ -198,7 +198,7 @@ Languages and Specifications:: Java SE, *Java EE* (JSF, BV, JPA, EJB, CDI, Servl
 
 Application Servers:: *JBoss EAP 6*, *WildFly 8*, Glassfish, Bea Weblogic and Apache Tomcat
 
-Frameworks and Libraries:: *Arquillian*, JBoss Forge, Apache DeltaSpike, Primefaces, Richfaces
+Frameworks and Libraries:: *Arquillian*, JBoss Forge, *Apache DeltaSpike*, Primefaces, Richfaces
 
 OS:: Linux (Ubuntu) and Windows
 
@@ -217,8 +217,8 @@ I contribute in a different ways (code, documentation, blog, forums, conference,
 
 Some of my open source activities can be found here:
 
-* :link-github[Github account]: general activity
-* :link-conventions[Conventions framework]: Academical homegrown framework I maintain for learning Java EE.
+* :{link-github}[Github account]: general activity
+* :{link-conventions}[Conventions framework]: Academical homegrown framework I maintain for learning Java EE.
 
 
 == Technical Writing
@@ -233,7 +233,7 @@ Some of my open source activities can be found here:
 
 === Blog
 
-I frequently write blog posts at http://rpestano.wordpress.com/[rpestano.workdpress, role="external", window="_blank"].
+I frequently write blog posts at http://rpestano.wordpress.com/[rpestano.wordpress.com, role="external", window="_blank"].
 
 == Conferences & Presentations
 
@@ -245,7 +245,7 @@ I frequently write blog posts at http://rpestano.wordpress.com/[rpestano.workdpr
 == Languages Skills
 
 * Portuguese : native language
-* English : fluent (reading, writting); intermediate (speaking)
+* English : fluent (reading, writting); advanced (speaking)
 
 == Education
 
@@ -257,7 +257,9 @@ icon:calendar[title="Period"] _2005-2014_ - *Bachelor Degree* +
 
 == Interests
 
-* Sport : Football (soccer) and muscle training in academy
-* TV Shows
+* Sport : Football (soccer) and weight/strength Training
+* TV Shows: The walking dead, Prison break
 * New technologies, Open Source
 * Family
+* Beer
+* Music
