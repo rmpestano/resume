@@ -85,9 +85,9 @@ He's mainly working with Java enterprise web related technologies for about 7 ye
 
 == Personal details
 
-_Name_: Rafael Mauricio Pestano +
-_WebSite / Social Media_: {link-blog}[blog] / icon:github[link={link-github}, role="external", window="_blank", alt="@rmpestano"] / icon:twitter[link={link-twitter}, role="external", window="_blank", alt="@realpestano"] +
-_Location_: {link-home}["Porto Alegre, RS, Brazil", role="external", window="_blank"] +
+`Name:` Rafael Mauricio Pestano +
+`WebSite / Social Media:` {link-blog}[blog] / icon:github[link={link-github}, role="external", window="_blank", alt="@rmpestano"] / icon:twitter[link={link-twitter}, role="external", window="_blank", alt="@realpestano"] +
+`Location:` {link-home}["Porto Alegre, RS, Brazil", role="external", window="_blank"] +
 
 
 == Professional Experience
