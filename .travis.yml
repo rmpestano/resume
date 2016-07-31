@@ -1,0 +1,15 @@
+sudo: false
+language: java
+jdk: oraclejdk8
+cache:
+  directories:
+  - "$HOME/.m2/repository"
+before_script:
+- git config --global user.name rmpestano
+- git config --global user.email rmpestano@gmail.com
+script:
+- mvn clean package
+env:
+  global:
+  - secure: Ja+1lEUxaCRQBICd4gZNbyXferjg+yJFRsduB6a4JvpuhhemZLRoDVrBq8zM18FGx6fkT3Oe10L2nuGAc2msoTFZtFQlORdisGkuItROVZ3knwgAeR04MxZ6ekZy393pnA2XXxggfHA90NcXoCpu7TX4YHYq4m8bqzmizrQXKHo=
+  - secure: N2Z8j5Gt3LqSZ8iYZN82M4X/WSXOO/3QXl3eA7XF758d0JnAyclEbpJKMQcVWop8oaLV8nmHxdKNXtkpNW3D8p3zlaIU688GbmGUBdR3zk+dWDxHU2EmA2ieyOT/27JKDSuMYwz/umGJ2i5tPpHWTAIPd/fBChNHLlweABNRy1g=

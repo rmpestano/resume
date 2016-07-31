@@ -1,6 +1,6 @@
 = Curriculum Vitae - Rafael M. Pestano
 Rafael Pestano <rmpestano@gmail.com>
-v1.0, March 13, 2015
+v2.0, July 30, 2016
 :icons: font
 :linkattrs:
 :sectanchors:
@@ -24,13 +24,22 @@ v1.0, March 13, 2015
 :link-rsjug: http://www.rsjug.org/
 
 
+
+
 //projects
 :link-github: https://github.com/rmpestano
+:ling-cukedoctor: http://github.com/rmpestano/cukedoctor
+:ling-dbunit-rules: http://github.com/rmpestano/dbunit-rules
 :link-conventions: http://conventions.github.io/home
 
 //writting
 :link-blog: http://rpestano.wordpress.com
 :link-thesis: http://www.lume.ufrgs.br/handle/10183/110332
+
+//other links
+:link-jenkins: https://jenkins.io/
+:link-artifactory: https://www.jfrog.com/open-source/
+:link-sonar: http://www.sonarqube.org/
 
 ifeval::["{backend}" == "html5"]
 icon:file-pdf-o[] Read this resume {link-resume}/resume.pdf[in PDF here, role="external", window="_blank"]. +
@@ -44,15 +53,17 @@ endif::[]
 == Software Engineer / Developer
 
 ****
-I'm looking for a *Software Engineer/Developer position* based on *Java EE* platform and related technologies. +
-I would like to focus my work on coding/testing, deal with infrastructure (devops), prospecting new technologies, evangelizing and sharing knowledge with teammates and also community.
+
+I'm a *Software Engineer/Developer* who works on *Java EE* platform and related technologies. +
+
+I like to focus my work on coding/testing, deal with infrastructure (devops), prospecting new technologies, evangelizing and sharing knowledge with teammates and community.
 
 Rafael has a bachelor degree of {link-resume}/#_education[Computer Science] and is a Software Developer/Engineer since *2007*. +
 He is actually a software engineer at {link-procergs}[PROCERGS^]. +
 
 He is passionate about IT and +Open Source+ so he contributes to {link-resume}#_open_source[Open Source projects] in many ways. +
 
-Rafael attends and speaks at {link-resume}/#_conferences_presentations[conferences] on *Java EE*, like The Developers Conference and also give talks at {link-rsjug}[local Jug^]. +
+Rafael attends and speaks at {link-resume}/#_conferences_presentations[conferences] on *Java EE*, like The Developers Conference and also {link-resume}/#_community[engage with community]. +
 
 He blogs about Java EE and related technologies on his {link-blog}[personal blog^].
 
@@ -70,12 +81,12 @@ He's mainly working with Java enterprise web related technologies for about 7 ye
 * SOA / Microservices
 * Docker and containers related technologies
 * Documentation (Asciidoctor)
+* Functional languages (Kotlin)
 
 == Personal details
 
-
 _Name_: Rafael Mauricio Pestano +
-_WebSite / Social Media_: {link-blog}[blog] / {link-github}[(GitHub)^] / {link-twitter}[(twitter)^] +
+_WebSite / Social Media_: {link-blog}[blog] / icon:github[link={link-github}, role="external", window="_blank", alt="@rmpestano"] / icon:twitter[link={link-twitter}, role="external", window="_blank", alt="@realpestano"] +
 _Location_: {link-home}["Porto Alegre, RS, Brazil", role="external", window="_blank"] +
 
 
@@ -96,23 +107,21 @@ Position:: *Software Engineer - Java EE - Agile - DevOps* +
 * Prospecting new technologies (R&D)
 * Evangelizing good practice and disciplines of agile methodologies such as testing and continuous delivery
 * Migration of legacy technology to service based architecture
+* Helps maintain infrastructure tools like {link-jenkins}[Jenkins]^, {link-sonar}[Sonar^] and {link-artifactory}[Artifactory^]
 * worked 3 years (2011-2014) in internal software factory using scrum
 
 ==== Used technologies
 
-* JavaEE 6 stack:
-** JSF 2.1
-** CDI 1.0
-** JPA 2.1 (Hibernate 4.x)
-** EJB 3.1
-** JaxRS and JaxWS
+* JavaEE 6/7 stack:
 * Primefaces / Richfaces
 * Arquillian / Cucumber / Selenium / Junit (tests)
 * Asciidoctor (Documentation)
 * Swagger (REST API)
-* JBoss EAP 6 (application server)
+* JBoss EAP 6/7 (application server)
 * SVN
-* OracleDB
+* OracleDB/Postgres
+* Redmine/TFS
+
 
 === Java Developer at AdvancedIt
 
@@ -196,17 +205,17 @@ Research and Development of Java EE 5 and Google Web Toolkit applications.
 
 Languages and Specifications:: Java SE, *Java EE* (JSF, BV, JPA, EJB, CDI, Servlet, JSP), J2EE, JavaScript, XML, CSS, AsciiDoc
 
-Application Servers:: *JBoss EAP 6*, *WildFly 8*, Glassfish, Bea Weblogic and Apache Tomcat
+Application Servers:: *JBoss EAP 6/7*, *WildFly 8*, Glassfish, Bea Weblogic and Apache Tomcat
 
-Frameworks and Libraries:: http://arquillian.org[*Arquillian*^], http://forge.jboss.org/[JBoss Forge^], https://deltaspike.apache.org/[*Apache DeltaSpike*^], http://primefaces.org[Primefaces^], Richfaces
+Frameworks and Libraries:: http://arquillian.org[*Arquillian*^], http://forge.jboss.org/[JBoss Forge^], https://deltaspike.apache.org/[*Apache DeltaSpike*^], http://primefaces.org[Primefaces^], http://gatling.io/[Gatling^]
 
-OS:: Linux (Ubuntu) and Windows
+OS:: Linux (Ubuntu/Fedora) and Windows
 
 Databases:: Oracle, Postgress, MySQL and HSQLDB
 
-Software Engineering:: SOA, DevOps, Design Patterns, Unit Testing, Integration Testing, BDD, Continuous Delivery
+Software Engineering:: OOP, SOA/MS, DevOps, Design Patterns, Unit Testing, Integration Testing, BDD, Continuous Delivery
 
-Tools:: Eclipse, *IntelliJ*, Netbeans, Maven, JIRA, Redmine, Subversion, *Git*, *Asciidoctor*, JMeter, Jenkins, Sonar, Artifactory
+Tools:: Eclipse, *IntelliJ*, Netbeans, Maven, JIRA, Redmine, Subversion, *Git*, *Asciidoctor*, JMeter/Gatling, Jenkins, Sonar, Artifactory
 
 Cloud:: Openshift, travisci, codeship
 
@@ -217,8 +226,11 @@ I contribute in a different ways (code, documentation, blog, forums, conference,
 
 Some of my open source activities can be found here:
 
-* {link-github}[Github account]: General activity
-* {link-conventions}[Conventions framework]: Academical homegrown framework I maintain for learning Java EE.
+* {link-github}[Github account^]: General activity
+* {link-cukedoctor}[Cukedoctor^]: BDD living documentation tool
+* {link-dbunit-rules}[DBUnit Rules^]: Database testing tool for JUnit
+* {link-conventions}[Conventions framework^]: Academical homegrown framework based on JavaEE 6 (NOT maintained anymore).
+
 
 
 == Technical Writing
@@ -237,10 +249,18 @@ I frequently write blog posts at http://rpestano.wordpress.com/[rpestano.wordpre
 
 == Conferences & Presentations
 
+* TDC 2015, Porto Alegre, September 2015
+** Coordinated Java tracking
+** Presented http://rmpestano.github.io/talks/slides/forge-tdc-2015/[Fast Java EE develpment with JBoss Forge]
 * TDC 2014, Porto Alegre, October 2014
 ** Presented http://pt.slideshare.net/rmpestano/presentation-40379978[Enterprise testing using Arquillian, role="external", window="_blank"]
-
 * Braziljs, Porto Alegre, August 2012
+
+My presentations slides can be found here: http://rmpestano.github.io/talks/
+
+== Community
+
+I am one of the coordinators of {link-rsjug}[Java user group of Rio Grade do Sul] (one of the first Brazilian JuGs).
 
 == Languages Skills
 
