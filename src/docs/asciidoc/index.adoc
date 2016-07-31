@@ -251,7 +251,7 @@ I frequently write blog posts at http://rpestano.wordpress.com/[rpestano.wordpre
 
 * TDC 2015, Porto Alegre, September 2015
 ** Coordinated Java tracking
-** Presented http://rmpestano.github.io/talks/slides/forge-tdc-2015/[Fast Java EE develpment with JBoss Forge]
+** Presented http://rmpestano.github.io/talks/slides/forge-tdc-2015/[Fast Java EE development with JBoss Forge]
 * TDC 2014, Porto Alegre, October 2014
 ** Presented http://pt.slideshare.net/rmpestano/presentation-40379978[Enterprise testing using Arquillian, role="external", window="_blank"]
 * Braziljs, Porto Alegre, August 2012
