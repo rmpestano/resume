@@ -260,7 +260,7 @@ My presentations slides can be found here: http://rmpestano.github.io/talks/
 
 == Community
 
-I am one of the coordinators of {link-rsjug}[Java user group of Rio Grade do Sul] (one of the first Brazilian JuGs).
+I am one of the coordinators of {link-rsjug}[Java user group of Rio Grade do Sul] (one of the first Brazilian JUGs).
 
 == Languages Skills
 
