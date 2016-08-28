@@ -28,8 +28,8 @@ v2.0, July 30, 2016
 
 //projects
 :link-github: https://github.com/rmpestano
-:ling-cukedoctor: http://github.com/rmpestano/cukedoctor
-:ling-dbunit-rules: http://github.com/rmpestano/dbunit-rules
+:link-cukedoctor: http://github.com/rmpestano/cukedoctor
+:link-dbunit-rules: http://github.com/rmpestano/dbunit-rules
 :link-conventions: http://conventions.github.io/home
 
 //writting
@@ -222,7 +222,7 @@ Cloud:: Openshift, travisci, codeship
 == Open Source
 
 Contribute to projects::
-I contribute in a different ways (code, documentation, blog, forums, conference,experimenting and opening issues) to severals projects like Asciidoctor, Arquillian, JBoss Forge and Deltaspike.
+I contribute in different ways (code, documentation, blog, forums, conference,experimenting and opening issues) to severals projects like Asciidoctor, Arquillian, JBoss Forge and Deltaspike.
 
 Some of my open source activities can be found here:
 
