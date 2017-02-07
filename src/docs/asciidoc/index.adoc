@@ -29,7 +29,8 @@ v2.0, July 30, 2016
 //projects
 :link-github: https://github.com/rmpestano
 :link-cukedoctor: http://github.com/rmpestano/cukedoctor
-:link-dbunit-rules: http://github.com/rmpestano/dbunit-rules
+:link-database-rider: http://github.com/database-rider/
+:link-adminfaces: http://github.com/adminfaces/
 :link-conventions: http://conventions.github.io/home
 
 //writting
@@ -67,7 +68,7 @@ Rafael attends and speaks at {link-resume}/#_conferences_presentations[conferenc
 
 He blogs about Java EE and related technologies on his {link-blog}[personal blog^].
 
-He's mainly working with Java enterprise web related technologies for about 7 years, has experience with agile methodologies and strong background on testing.
+He's mainly working with Java enterprise web related technologies for about 10 years, has experience with agile methodologies and strong background on testing.
 
 ****
 
@@ -203,15 +204,15 @@ Research and Development of Java EE 5 and Google Web Toolkit applications.
 
 == Technical Skills
 
-Languages and Specifications:: Java SE, *Java EE* (JSF, BV, JPA, EJB, CDI, Servlet, JSP), J2EE, JavaScript, XML, CSS, AsciiDoc
+Languages and Specifications:: Java SE, *Java EE* (JSF, BV, JPA, EJB, CDI, Servlet, JSP), J2EE, JavaScript, XML, JSON, CSS, AsciiDoc, Swagger
 
-Application Servers:: *JBoss EAP 6/7*, *WildFly 8*, Glassfish, Bea Weblogic and Apache Tomcat
+Application Servers:: *JBoss EAP 6/7*, *WildFly 8/10*, Glassfish/Payara, Bea Weblogic and Apache Tomcat/Tomee
 
-Frameworks and Libraries:: http://arquillian.org[*Arquillian*^], http://forge.jboss.org/[JBoss Forge^], https://deltaspike.apache.org/[*Apache DeltaSpike*^], http://primefaces.org[Primefaces^], http://gatling.io/[Gatling^]
+Frameworks and Libraries:: http://arquillian.org[*Arquillian*^], http://forge.jboss.org/[JBoss Forge^], https://deltaspike.apache.org/[*Apache DeltaSpike*^], http://primefaces.org[Primefaces^], http://gatling.io/[Gatling^].
 
 OS:: Linux (Ubuntu/Fedora) and Windows
 
-Databases:: Oracle, Postgress, MySQL and HSQLDB
+Databases:: Oracle, Postgress, MySQL and HSQLDB/H2
 
 Software Engineering:: OOP, SOA/MS, DevOps, Design Patterns, Unit Testing, Integration Testing, BDD, Continuous Delivery
 
@@ -228,7 +229,8 @@ Some of my open source activities can be found here:
 
 * {link-github}[Github account^]: General activity
 * {link-cukedoctor}[Cukedoctor^]: BDD living documentation tool
-* {link-dbunit-rules}[DBUnit Rules^]: Database testing tool for JUnit
+* {link-database-rider}[Database Rider (formerly named DBUnit Rules)^]: Database testing tool for JUnit
+* {link-adminfaces}[AdminFaces^]: JSF Template and Primefaces theme based on Bootstrap and AdminLTE
 * {link-conventions}[Conventions framework^]: Academical homegrown framework based on JavaEE 6 (NOT maintained anymore).
 
 
@@ -249,6 +251,8 @@ I frequently write blog posts at http://rpestano.wordpress.com/[rpestano.wordpre
 
 == Conferences & Presentations
 
+* TDC 2016, Porto Alegre, October 2016
+** Coordinated Java tracking
 * TDC 2015, Porto Alegre, September 2015
 ** Coordinated Java tracking
 ** Presented http://rmpestano.github.io/talks/slides/forge-tdc-2015/[Fast Java EE development with JBoss Forge]
