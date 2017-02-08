@@ -1,6 +1,6 @@
 = Curriculum Vitae - Rafael M. Pestano
 Rafael Pestano <rmpestano@gmail.com>
-v2.0, July 30, 2016
+v3.0, Feb 07, 2017
 :icons: font
 :linkattrs:
 :sectanchors:
@@ -104,7 +104,7 @@ Position:: *Software Engineer - Java EE - Agile - DevOps* +
 --
 
 * Create and maintain in house JavaEE 6+ based solutions for speed up development
-* Part of a Technical team which supports 300+ developers
+* Part of a Technical team which supports 200+ developers
 * Prospecting new technologies (R&D)
 * Evangelizing good practice and disciplines of agile methodologies such as testing and continuous delivery
 * Migration of legacy technology to service based architecture
@@ -122,6 +122,7 @@ Position:: *Software Engineer - Java EE - Agile - DevOps* +
 * SVN
 * OracleDB/Postgres
 * Redmine/TFS
+* MAT (Memory analyser Tool)
 
 
 === Java Developer at AdvancedIt
