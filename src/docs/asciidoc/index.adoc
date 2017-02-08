@@ -22,7 +22,7 @@ v3.0, Feb 07, 2017
 
 :link-home: https://goo.gl/maps/NpRTv
 :link-rsjug: http://www.rsjug.org/
-{link-rsjug-site}: https://rsjug.github.io/site/
+:link-rsjug-site: https://rsjug.github.io/site/
 
 
 
