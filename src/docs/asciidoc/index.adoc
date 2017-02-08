@@ -22,6 +22,7 @@ v3.0, Feb 07, 2017
 
 :link-home: https://goo.gl/maps/NpRTv
 :link-rsjug: http://www.rsjug.org/
+{link-rsjug-site}: https://rsjug.github.io/site/
 
 
 
@@ -29,7 +30,7 @@ v3.0, Feb 07, 2017
 //projects
 :link-github: https://github.com/rmpestano
 :link-cukedoctor: http://github.com/rmpestano/cukedoctor
-:link-database-rider: http://github.com/database-rider/
+:link-database-rider: https://database-rider.github.io/database-rider/
 :link-adminfaces: http://github.com/adminfaces/
 :link-conventions: http://conventions.github.io/home
 
@@ -224,16 +225,17 @@ Cloud:: Openshift, travisci, codeship
 == Open Source
 
 Contribute to projects::
-I contribute in different ways (code, documentation, blog, forums, conference,experimenting and opening issues) to severals projects like Asciidoctor, Arquillian, JBoss Forge and Deltaspike.
+I contribute in different ways (code, documentation, blog, forums, conference,experimenting and opening issues) to severals projects like Asciidoctor, Arquillian, JBoss Forge and Deltaspike. 
 
-Some of my open source activities can be found here:
+My general OSS activity can be found on {link-github}[Github here^].
 
-* {link-github}[Github account^]: General activity
+Following is notable projects I've created and maintain:
+  
 * {link-cukedoctor}[Cukedoctor^]: BDD living documentation tool
 * {link-database-rider}[Database Rider (formerly named DBUnit Rules)^]: Database testing tool for JUnit
 * {link-adminfaces}[AdminFaces^]: JSF Template and Primefaces theme based on Bootstrap and AdminLTE
+* {link-rsjug-site}[RSJug^]: Jekyll based site for our local Jug
 * {link-conventions}[Conventions framework^]: Academical homegrown framework based on JavaEE 6 (NOT maintained anymore).
-
 
 
 == Technical Writing
