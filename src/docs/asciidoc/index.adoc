@@ -1,6 +1,6 @@
 = Curriculum Vitae - Rafael M. Pestano
 Rafael Pestano <rmpestano@gmail.com>
-v3.0, Feb 07, 2017
+v3.1, Feb 07, 2017
 :icons: font
 :linkattrs:
 :sectanchors:
@@ -32,6 +32,7 @@ v3.0, Feb 07, 2017
 :link-cukedoctor: http://github.com/rmpestano/cukedoctor
 :link-database-rider: https://database-rider.github.io/database-rider/
 :link-adminfaces: http://github.com/adminfaces/
+:link-last-changes: https://wiki.jenkins.io/display/JENKINS/Last+Changes+Plugin
 :link-conventions: http://conventions.github.io/home
 
 //writting
@@ -42,6 +43,7 @@ v3.0, Feb 07, 2017
 :link-jenkins: https://jenkins.io/
 :link-artifactory: https://www.jfrog.com/open-source/
 :link-sonar: http://www.sonarqube.org/
+:link-jekyll: https://jekyllrb.com/
 
 ifeval::["{backend}" == "html5"]
 icon:file-pdf-o[] Read this resume {link-resume}/index.pdf[in PDF here, role="external", window="_blank"]. +
@@ -109,7 +111,7 @@ Position:: *Software Engineer - Java EE - Agile - DevOps* +
 * Prospecting new technologies (R&D)
 * Evangelizing good practice and disciplines of agile methodologies such as testing and continuous delivery
 * Migration of legacy technology to service based architecture
-* Helps maintain infrastructure tools like {link-jenkins}[Jenkins]^, {link-sonar}[Sonar^] and {link-artifactory}[Artifactory^]
+* Helps maintain infrastructure tools like {link-jenkins}[Jenkins^], {link-sonar}[Sonar^] and {link-artifactory}[Artifactory^]
 * worked 3 years (2011-2014) in internal software factory using scrum
 
 ==== Used technologies
@@ -120,7 +122,7 @@ Position:: *Software Engineer - Java EE - Agile - DevOps* +
 * Asciidoctor (Documentation)
 * Swagger (REST API)
 * JBoss EAP 6/7 (application server)
-* SVN
+* SVN/GIT
 * OracleDB/Postgres
 * Redmine/TFS
 * MAT (Memory analyser Tool)
@@ -206,7 +208,7 @@ Research and Development of Java EE 5 and Google Web Toolkit applications.
 
 == Technical Skills
 
-Languages and Specifications:: Java SE, *Java EE* (JSF, BV, JPA, EJB, CDI, Servlet, JSP), J2EE, JavaScript, XML, JSON, CSS, AsciiDoc, Swagger
+Languages and Specifications:: Java SE, *Java EE* (JSF, BV, JPA, EJB, CDI, JAX-RS, Servlet, JSP), J2EE, JavaScript, XML, JSON, CSS, AsciiDoc, Swagger
 
 Application Servers:: *JBoss EAP 6/7*, *WildFly 8/10*, Glassfish/Payara, Bea Weblogic and Apache Tomcat/Tomee
 
@@ -220,7 +222,7 @@ Software Engineering:: OOP, SOA/MS, DevOps, Design Patterns, Unit Testing, Integ
 
 Tools:: Eclipse, *IntelliJ*, Netbeans, Maven, JIRA, Redmine, Subversion, *Git*, *Asciidoctor*, JMeter/Gatling, Jenkins, Sonar, Artifactory
 
-Cloud:: Openshift, travisci, codeship
+Cloud:: Openshift, travisci
 
 == Open Source
 
@@ -233,8 +235,9 @@ Following is notable projects I've created and maintain:
   
 * {link-cukedoctor}[Cukedoctor^]: BDD living documentation tool
 * {link-database-rider}[Database Rider (formerly named DBUnit Rules)^]: Database testing tool for JUnit
-* {link-adminfaces}[AdminFaces^]: JSF Template and Primefaces theme based on Bootstrap and AdminLTE
-* {link-rsjug-site}[RSJug^]: Jekyll based site for our local Jug
+* {link-adminfaces}[AdminFaces^]: Responsive JSF Template and Primefaces theme based on Bootstrap and AdminLTE
+* {link-last-changes}[LastChanges^]: A Jenkins plugin which generates rich diffs between builds
+* {link-rsjug-site}[RSJug^]: {link-jekyll}[Jekyll^] based site for our local Jug
 * {link-conventions}[Conventions framework^]: Academical homegrown framework based on JavaEE 6 (NOT maintained anymore).
 
 
@@ -267,7 +270,7 @@ My presentations slides can be found here: http://rmpestano.github.io/talks/
 
 == Community
 
-I am one of the coordinators of {link-rsjug}[Java user group of Rio Grade do Sul] (one of the first Brazilian JUGs).
+I am one of the coordinators of {link-rsjug}[Java user group of Rio Grade do Sul] (The first Brazilian JUG).
 
 == Languages Skills
 
