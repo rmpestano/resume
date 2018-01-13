@@ -1,6 +1,6 @@
 = Curriculum Vitae - Rafael M. Pestano
 Rafael Pestano <rmpestano@gmail.com>
-v3.1, Feb 07, 2017
+v3.2, Jan 13, 2018
 :icons: font
 :linkattrs:
 :sectanchors:
@@ -106,12 +106,14 @@ icon:group[title="Employee"] {link-procergs}[PROCERGS - Data processing company 
 Position:: *Software Engineer - Java EE - Agile - DevOps* +
 --
 
-* Create and maintain in house JavaEE 6+ based solutions for speed up development
+* Create and maintain in house JavaEE 6+ based solutions for speed up internal development
 * Part of a Technical team which supports 200+ developers
 * Prospecting new technologies (R&D)
 * Evangelizing good practice and disciplines of agile methodologies such as testing and continuous delivery
 * Migration of legacy technology to service based architecture
 * Helps maintain infrastructure tools like {link-jenkins}[Jenkins^], {link-sonar}[Sonar^] and {link-artifactory}[Artifactory^]
+* Write documentation about best practices 
+* Migration of legacy applications (JavaEE 5 or below) to new stack (Java EE 7)
 * worked 3 years (2011-2014) in internal software factory using scrum
 
 ==== Used technologies
@@ -208,7 +210,7 @@ Research and Development of Java EE 5 and Google Web Toolkit applications.
 
 == Technical Skills
 
-Languages and Specifications:: Java SE, *Java EE* (JSF, BV, JPA, EJB, CDI, JAX-RS, Servlet, JSP), J2EE, JavaScript, XML, JSON, CSS, AsciiDoc, Swagger
+Languages and Specifications:: Java SE, *Java EE* (JSF, BV, JPA, EJB, CDI, JAX-RS, Servlet, JSP), J2EE, JavaScript, XML, JSON, CSS/Less/Sass, AsciiDoc, Swagger
 
 Application Servers:: *JBoss EAP 6/7*, *WildFly 8/10*, Glassfish/Payara, Bea Weblogic and Apache Tomcat/Tomee
 
@@ -257,11 +259,13 @@ I frequently write blog posts at http://rpestano.wordpress.com/[rpestano.wordpre
 
 == Conferences & Presentations
 
+* TDC 2017, Porto Alegre, November 2017
+** Presented http://rmpestano.github.io/talks/slides/javaee-pipeline/[JavaEE Pipeline as code with Docker, Jenkins and Sonar]
 * TDC 2016, Porto Alegre, October 2016
 ** Coordinated Java tracking
 * TDC 2015, Porto Alegre, September 2015
-** Coordinated Java tracking
 ** Presented http://rmpestano.github.io/talks/slides/forge-tdc-2015/[Fast Java EE development with JBoss Forge]
+** Coordinated Java tracking
 * TDC 2014, Porto Alegre, October 2014
 ** Presented http://pt.slideshare.net/rmpestano/presentation-40379978[Enterprise testing using Arquillian, role="external", window="_blank"]
 * Braziljs, Porto Alegre, August 2012
@@ -285,11 +289,11 @@ I am one of the coordinators of {link-rsjug}[Java user group of Rio Grade do Sul
 
 icon:calendar[title="Period"] _2005-2014_ - *Bachelor Degree* +
 
-== Interests
+== Personal Interests
 
 * Sport : Football (soccer) and weight/strength Training
-* TV Shows: The walking dead, Prison break
+* TV Shows: The walking dead, Prison break, Stranger Things etc...
 * New technologies, Open Source
-* Family
+* Family (Father of two beatiful little girls)
 * Beer
 * Music
