@@ -1,6 +1,6 @@
 = Curriculum Vitae - Rafael M. Pestano
 Rafael Pestano <rmpestano@gmail.com>
-v3.2, Jan 13, 2018
+v3.3, Mar 17, 2018
 :icons: font
 :linkattrs:
 :sectanchors:
@@ -44,6 +44,8 @@ v3.2, Jan 13, 2018
 :link-artifactory: https://www.jfrog.com/open-source/
 :link-sonar: http://www.sonarqube.org/
 :link-jekyll: https://jekyllrb.com/
+:link-app-dynamics: https://www.appdynamics.com/
+:link-wso2: https://wso2.com/
 
 ifeval::["{backend}" == "html5"]
 icon:file-pdf-o[] Read this resume {link-resume}/index.pdf[in PDF here, role="external", window="_blank"]. +
@@ -62,16 +64,17 @@ I'm a *Software Engineer/Developer* who works on *Java EE* platform and related 
 
 I like to focus my work on coding/testing, deal with infrastructure (devops), prospecting new technologies, evangelizing and sharing knowledge with teammates and community.
 
-Rafael has a bachelor degree of {link-resume}/#_education[Computer Science] and is a Software Developer/Engineer since *2007*. +
-He is actually a software engineer at {link-procergs}[PROCERGS^]. +
+I have a bachelor degree of {link-resume}/#_education[Computer Science] and I am a Software Developer since *2007*. +
 
-He is passionate about IT and +Open Source+ so he contributes to {link-resume}#_open_source[Open Source projects] in many ways. +
+I'm actually working as a software engineer at {link-procergs}[PROCERGS^]. +
 
-Rafael attends and speaks at {link-resume}/#_conferences_presentations[conferences] on *Java EE*, like The Developers Conference and also {link-resume}/#_community[engage with community]. +
+I am very passionate about IT and +Open Source+ and I contribute to {link-resume}#_open_source[Open Source projects] in many ways. +
 
-He blogs about Java EE and related technologies on his {link-blog}[personal blog^].
+I attend and speak at {link-resume}/#_conferences_presentations[conferences] on *Java EE*, like The Developers Conference and I also {link-resume}/#_community[engage with community]. +
 
-He's mainly working with Java enterprise web related technologies for about 10 years, has experience with agile methodologies and strong background on testing.
+I blog about Java EE and related technologies on my {link-blog}[personal blog^].
+
+I'm mainly working with Java enterprise web related technologies for about 10 years, I have experience with agile methodologies and strong background on testing.
 
 ****
 
@@ -85,7 +88,8 @@ He's mainly working with Java enterprise web related technologies for about 10 y
 * SOA / Microservices
 * Docker and containers related technologies
 * Documentation (Asciidoctor)
-* Functional languages (Kotlin)
+* Functional languages (Kotlin/Groovy)
+* Cloud (AWS and OpenShift)
 
 == Personal details
 
@@ -96,7 +100,7 @@ He's mainly working with Java enterprise web related technologies for about 10 y
 
 == Professional Experience
 
-=== Java EE Engineer / Developer at Procergs
+=== Java EE Engineer / Developer at PROCERGS
 
 icon:calendar[title="Period"] _August 2011 to Now (On going)_ +
 icon:group[title="Employee"] {link-procergs}[PROCERGS - Data processing company of the State of Rio Grande do Sul, role="external", window="_blank"] +
@@ -106,19 +110,21 @@ icon:group[title="Employee"] {link-procergs}[PROCERGS - Data processing company 
 Position:: *Software Engineer - Java EE - Agile - DevOps* +
 --
 
-* Create and maintain in house JavaEE 6+ based solutions for speed up internal development
+* Create and maintain in house JavaEE based solutions for speed up internal development
 * Part of a Technical team which supports 200+ developers
 * Prospecting new technologies (R&D)
 * Evangelizing good practice and disciplines of agile methodologies such as testing and continuous delivery
 * Migration of legacy technology to service based architecture
-* Helps maintain infrastructure tools like {link-jenkins}[Jenkins^], {link-sonar}[Sonar^] and {link-artifactory}[Artifactory^]
-* Write documentation about best practices 
+* Helps maintain infrastructure tools like {link-wso2}[WSO2^], {link-app-dynamics}[AppDynamics^], {link-jenkins}[Jenkins^], {link-sonar}[Sonar^] and {link-artifactory}[Artifactory^]
+* Develop and maintain an internal (devops) tool to help developers in _App Servers management_ (deploy applications, view logs, start/stop apps, create system props etc...)
+* Write documentation and blog about best practices
+* Drive/help teams to build delivery pipelines on Jenkins
 * Migration of legacy applications (JavaEE 5 or below) to new stack (Java EE 7)
 * worked 3 years (2011-2014) in internal software factory using scrum
 
 ==== Used technologies
 
-* JavaEE 6/7 stack:
+* JavaEE 6/7 stack (mainly EJB, CDI, JSF, JPA/Hibernate)
 * Primefaces / Richfaces
 * Arquillian / Cucumber / Selenium / Junit (tests)
 * Asciidoctor (Documentation)
@@ -128,6 +134,11 @@ Position:: *Software Engineer - Java EE - Agile - DevOps* +
 * OracleDB/Postgres
 * Redmine/TFS
 * MAT (Memory analyser Tool)
+* Jenkins
+* Sonar
+* WSO2
+* AppDynamics
+* Artifactory
 
 
 === Java Developer at AdvancedIt
@@ -164,6 +175,7 @@ Position:: *Java Developer* +
 --
 * Worked customizing Atlassian Jira issue tracker for various clients
 * Developed a JavaEE 5 JBoss Seam based web application
+* Mercurial VCS
 
 ==== Used technologies
 
@@ -206,25 +218,29 @@ Research and Development of Java EE 5 and Google Web Toolkit applications.
 * Jasper reports
 * MySql
 * JaxWS (apache axis)
+* GWT (with ExtJS)
 
 
 == Technical Skills
 
-Languages and Specifications:: Java SE, *Java EE* (JSF, BV, JPA, EJB, CDI, JAX-RS, Servlet, JSP), J2EE, JavaScript, XML, JSON, CSS/Less/Sass, AsciiDoc, Swagger
+Languages and Specifications:: Java SE 7/8, Kotlin, Groovy, JavaScript, JSON, YAML, CSS/Less/Sass, AsciiDoc, Swagger
 
 Application Servers:: *JBoss EAP 6/7*, *WildFly 8/10*, Glassfish/Payara, Bea Weblogic and Apache Tomcat/Tomee
 
-Frameworks and Libraries:: http://arquillian.org[*Arquillian*^], http://forge.jboss.org/[JBoss Forge^], https://deltaspike.apache.org/[*Apache DeltaSpike*^], http://primefaces.org[Primefaces^], http://gatling.io/[Gatling^].
+Frameworks and Libraries:: *Java EE* (JSF, BV, JPA, EJB, CDI, JAX-RS, Servlet, JSP), J2EE, http://arquillian.org[*Arquillian*^], http://forge.jboss.org/[JBoss Forge^], https://deltaspike.apache.org/[*Apache DeltaSpike*^], http://primefaces.org[Primefaces^], http://gatling.io/[Gatling^].
 
-OS:: Linux (Ubuntu/Fedora) and Windows
+OS:: Linux (*Ubuntu*/Fedora) and Windows
 
 Databases:: Oracle, Postgress, MySQL and HSQLDB/H2
 
-Software Engineering:: OOP, SOA/MS, DevOps, Design Patterns, Unit Testing, Integration Testing, BDD, Continuous Delivery
+Software Engineering:: OOP, SOA/MS, DevOps, Design Patterns, Unit Testing, Integration Testing, BDD, *Continuous Delivery*
 
-Tools:: Eclipse, *IntelliJ*, Netbeans, Maven, JIRA, Redmine, Subversion, *Git*, *Asciidoctor*, JMeter/Gatling, Jenkins, Sonar, Artifactory
+Tools:: Eclipse, *IntelliJ*, Netbeans, Maven, JIRA, Redmine, Subversion, *Git*, *Asciidoctor*, JMeter/Gatling, Jenkins, Sonar, Artifactory, WSO2 and AppDynamics
 
 Cloud:: Openshift, travisci
+
+ADLM:: TFS
+
 
 == Open Source
 
@@ -237,8 +253,8 @@ Following is notable projects I've created and maintain:
   
 * {link-cukedoctor}[Cukedoctor^]: BDD living documentation tool
 * {link-database-rider}[Database Rider (formerly named DBUnit Rules)^]: Database testing tool for JUnit
-* {link-adminfaces}[AdminFaces^]: Responsive JSF Template and Primefaces theme based on Bootstrap and AdminLTE
-* {link-last-changes}[LastChanges^]: A Jenkins plugin which generates rich diffs between builds
+* {link-adminfaces}[AdminFaces^]: A premium responsive JSF template and Primefaces theme based on Bootstrap and AdminLTE
+* {link-last-changes}[LastChanges^]: A plugin which generates rich HTML diffs for *Jenkins* builds
 * {link-rsjug-site}[RSJug^]: {link-jekyll}[Jekyll^] based site for our local Jug
 * {link-conventions}[Conventions framework^]: Academical homegrown framework based on JavaEE 6 (NOT maintained anymore).
 
