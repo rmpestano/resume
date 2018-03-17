@@ -116,7 +116,7 @@ Position:: *Software Engineer - Java EE - Agile - DevOps* +
 * Evangelizing good practice and disciplines of agile methodologies such as testing and continuous delivery
 * Migration of legacy technology to service based architecture
 * Helps maintain infrastructure tools like {link-wso2}[WSO2^], {link-app-dynamics}[AppDynamics^], {link-jenkins}[Jenkins^], {link-sonar}[Sonar^] and {link-artifactory}[Artifactory^]
-* Develop and maintain an internal (devops) tool to help developers in _App Servers management_ (deploy applications, view logs, start/stop apps, create system props etc...)
+* Develop and maintain an internal (devops) tool to help developers in _App Servers management_ (deploy applications, view logs, start/stop apps, logging configuration, create system props etc...)
 * Write documentation and blog about best practices
 * Drive/help teams to build delivery pipelines on Jenkins
 * Migration of legacy applications (JavaEE 5 or below) to new stack (Java EE 7)
