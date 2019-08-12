@@ -1,6 +1,8 @@
 = Curriculum Vitae - Rafael M. Pestano
 Rafael Pestano <rmpestano@gmail.com>
-v3.3, Mar 17, 2018
+Kismet Chameleon <kismet@asciidoctor.org>
+:revnumber: {version} 
+:revdate: 12-08-2019
 :icons: font
 :linkattrs:
 :sectanchors:
@@ -74,7 +76,7 @@ I attend and speak at {link-resume}/#_conferences_presentations[conferences] on 
 
 I blog about Java EE and related technologies on my {link-blog}[personal blog^].
 
-I'm mainly working with Java enterprise web related technologies for about 10 years, I have experience with agile methodologies and strong background on testing.
+I'm mainly working with Java enterprise web related technologies for 10+ years, I have experience with agile methodologies and strong background on testing.
 
 ****
 
@@ -96,8 +98,8 @@ I'm mainly working with Java enterprise web related technologies for about 10 ye
 `Name:` Rafael Mauricio Pestano +
 `WebSite / Social Media:` {link-blog}[blog] / icon:github[link={link-github}, role="external", window="_blank", alt="@rmpestano"] / icon:twitter[link={link-twitter}, role="external", window="_blank", alt="@realpestano"] +
 `Location:` {link-home}["Porto Alegre, RS, Brazil", role="external", window="_blank"] +
-
-
+`Phone:` +55 51 995197436 
+ 
 == Professional Experience
 
 === Java EE Engineer / Developer at PROCERGS
@@ -116,10 +118,10 @@ Position:: *Software Engineer - Java EE - Agile - DevOps* +
 * Evangelizing good practice and disciplines of agile methodologies such as testing and continuous delivery
 * Migration of legacy technology to service based architecture
 * Helps maintain infrastructure tools like {link-wso2}[WSO2^], {link-app-dynamics}[AppDynamics^], {link-jenkins}[Jenkins^], {link-sonar}[Sonar^] and {link-artifactory}[Artifactory^]
-* Develop and maintain an internal (devops) tool to help developers in _App Servers management_ (deploy applications, view logs, start/stop apps, logging configuration, create system props etc...)
+* Develop and maintain an internal (devops) tool to help developers in _App Servers management_ (deploy applications, view logs, start/stop apps, logging configuration, create system props, enable blue/green deployment etc...)
 * Write documentation and blog about best practices
 * Drive/help teams to build delivery pipelines on Jenkins
-* Migration of legacy applications (JavaEE 5 or below) to new stack (Java EE 7)
+* Migration of legacy applications (JavaEE 5 or below) to new stack (Java EE 7/8)
 * worked 3 years (2011-2014) in internal software factory using scrum
 
 ==== Used technologies
@@ -139,6 +141,8 @@ Position:: *Software Engineer - Java EE - Agile - DevOps* +
 * WSO2
 * AppDynamics
 * Artifactory
+
+TIP: Currently internalizing an internal cloud solution based on Kubernetes (PKS).
 
 
 === Java Developer at AdvancedIt
@@ -235,9 +239,9 @@ Databases:: Oracle, Postgress, MySQL and HSQLDB/H2
 
 Software Engineering:: OOP, SOA/MS, DevOps, Design Patterns, Unit Testing, Integration Testing, BDD, *Continuous Delivery*
 
-Tools:: Eclipse, *IntelliJ*, Netbeans, Maven, JIRA, Redmine, Subversion, *Git*, *Asciidoctor*, JMeter/Gatling, Jenkins, Sonar, Artifactory, WSO2 and AppDynamics
+Tools:: Eclipse, IntelliJ, Netbeans, Maven, JIRA, Redmine, Subversion, Git, Asciidoctor, JMeter/Gatling, Jenkins, Sonar, Artifactory, WSO2 and AppDynamics
 
-Cloud:: Openshift, travisci
+Cloud:: PKS, Openshift, travisci
 
 ADLM:: TFS
 
@@ -273,8 +277,10 @@ Following is notable projects I've created and maintain:
 
 I frequently write blog posts at http://rpestano.wordpress.com/[rpestano.wordpress.com, role="external", window="_blank"].
 
-== Conferences & Presentations
+== Conference presentations
 
+* TDC 2018, Porto Alegre, Dezember 2018
+** Presented http://rmpestano.github.io/talks/slides/tdc-dbunit/index.html#/[Testing your persistence layer with Database Rider]
 * TDC 2017, Porto Alegre, November 2017
 ** Presented http://rmpestano.github.io/talks/slides/javaee-pipeline/index-en.html[JavaEE Pipeline as code with Docker, Jenkins and Sonar]
 * TDC 2016, Porto Alegre, October 2016
@@ -284,8 +290,7 @@ I frequently write blog posts at http://rpestano.wordpress.com/[rpestano.wordpre
 ** Coordinated Java tracking
 * TDC 2014, Porto Alegre, October 2014
 ** Presented http://pt.slideshare.net/rmpestano/presentation-40379978[Enterprise testing using Arquillian, role="external", window="_blank"]
-* Braziljs, Porto Alegre, August 2012
-
+ 
 My presentations slides can be found here: http://rmpestano.github.io/talks/
 
 == Community
@@ -307,9 +312,10 @@ icon:calendar[title="Period"] _2005-2014_ - *Bachelor Degree* +
 
 == Personal Interests
 
-* Sport : Football (soccer) and weight/strength Training
+* Sport : Football (soccer), weight/strength Training and running
 * TV Shows: The walking dead, Prison break, Stranger Things etc...
 * New technologies, Open Source
-* Family (Father of two beatiful little girls)
+* Family (Father of two beautiful little girls)
 * Beer
 * Music
+* Charcuterie (home made sausages lover)
