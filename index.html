@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.5">
+<meta name="generator" content="Asciidoctor 1.5.6.1">
 <meta name="author" content="Rafael Pestano">
 <title>Curriculum Vitae - Rafael M. Pestano</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
@@ -90,13 +90,12 @@ strong,b{font-weight:bold;line-height:inherit}
 small{font-size:60%;line-height:inherit}
 code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
 ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
-ul,ol,ul.no-bullet,ol.no-bullet{margin-left:1.5em}
+ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
 ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
 ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
-ul.no-bullet{list-style:none}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -132,7 +131,11 @@ strong strong{font-weight:400}
 kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
 .keyseq kbd:first-child{margin-left:0}
 .keyseq kbd:last-child{margin-right:0}
-.menuseq,.menu{color:rgba(0,0,0,.8)}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
 b.button:before,b.button:after{position:relative;top:-1px;font-weight:400}
 b.button:before{content:"[";padding:0 3px 0 2px}
 b.button:after{content:"]";padding:0 2px 0 3px}
@@ -199,7 +202,7 @@ table.tableblock>caption.title{white-space:nowrap;overflow:visible;max-width:0}
 table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p{font-size:inherit}
 .admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
 .admonitionblock>table td.icon{text-align:center;width:80px}
-.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon img{max-width:initial}
 .admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #ddddd8;color:rgba(0,0,0,.6)}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
@@ -255,13 +258,13 @@ table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
 table.tableblock{max-width:100%;border-collapse:separate}
 table.tableblock td>.paragraph:last-child p>p:last-child,table.tableblock th>p:last-child,table.tableblock td>p:last-child{margin-bottom:0}
 table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
-table.grid-all th.tableblock,table.grid-all td.tableblock{border-width:0 1px 1px 0}
-table.grid-all tfoot>tr>th.tableblock,table.grid-all tfoot>tr>td.tableblock{border-width:1px 1px 0 0}
-table.grid-cols th.tableblock,table.grid-cols td.tableblock{border-width:0 1px 0 0}
-table.grid-all *>tr>.tableblock:last-child,table.grid-cols *>tr>.tableblock:last-child{border-right-width:0}
-table.grid-rows th.tableblock,table.grid-rows td.tableblock{border-width:0 0 1px 0}
-table.grid-all tbody>tr:last-child>th.tableblock,table.grid-all tbody>tr:last-child>td.tableblock,table.grid-all thead:last-child>tr>th.tableblock,table.grid-rows tbody>tr:last-child>th.tableblock,table.grid-rows tbody>tr:last-child>td.tableblock,table.grid-rows thead:last-child>tr>th.tableblock{border-bottom-width:0}
-table.grid-rows tfoot>tr>th.tableblock,table.grid-rows tfoot>tr>td.tableblock{border-width:1px 0 0 0}
+table.grid-all>thead>tr>.tableblock,table.grid-all>tbody>tr>.tableblock{border-width:0 1px 1px 0}
+table.grid-all>tfoot>tr>.tableblock{border-width:1px 1px 0 0}
+table.grid-cols>*>tr>.tableblock{border-width:0 1px 0 0}
+table.grid-rows>thead>tr>.tableblock,table.grid-rows>tbody>tr>.tableblock{border-width:0 0 1px 0}
+table.grid-rows>tfoot>tr>.tableblock{border-width:1px 0 0 0}
+table.grid-all>*>tr>.tableblock:last-child,table.grid-cols>*>tr>.tableblock:last-child{border-right-width:0}
+table.grid-all>tbody>tr:last-child>.tableblock,table.grid-all>thead:last-child>tr>.tableblock,table.grid-rows>tbody>tr:last-child>.tableblock,table.grid-rows>thead:last-child>tr>.tableblock{border-bottom-width:0}
 table.frame-all{border-width:1px}
 table.frame-sides{border-width:0 1px}
 table.frame-topbot{border-width:1px 0}
@@ -282,10 +285,12 @@ ul li ol{margin-left:1.5em}
 dl dd{margin-left:1.125em}
 dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
 ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
-ul.unstyled,ol.unnumbered,ul.checklist,ul.none{list-style-type:none}
-ul.unstyled,ol.unnumbered,ul.checklist{margin-left:.625em}
-ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1em;font-size:.85em}
-ul.checklist li>p:first-child>input[type="checkbox"]:first-child{width:1em;position:relative;top:1px}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+ul.checklist{margin-left:.625em}
+ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist li>p:first-child>input[type="checkbox"]:first-child{margin-right:.25em}
 ul.inline{margin:0 auto .625em auto;margin-left:-1.375em;margin-right:0;padding:0;list-style:none;overflow:hidden}
 ul.inline>li{list-style:none;float:left;margin-left:1.375em;display:block}
 ul.inline>li>*{display:block}
@@ -302,7 +307,8 @@ ol.lowergreek{list-style-type:lower-greek}
 td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
 td.hdlist1{font-weight:bold;padding-bottom:1.25em}
 .literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
-.colist>table tr>td:first-of-type{padding:0 .75em;line-height:1}
+.colist>table tr>td:first-of-type{padding:.4em .75em 0 .75em;line-height:1;vertical-align:top}
+.colist>table tr>td:first-of-type img{max-width:initial}
 .colist>table tr>td:last-of-type{padding:.25em 0}
 .thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
 .imageblock.left,.imageblock[style*="float: left"]{margin:.25em .625em 1.25em 0}
@@ -365,6 +371,7 @@ div.unbreakable{page-break-inside:avoid}
 .yellow{color:#bfbf00}
 .yellow-background{background-color:#fafa00}
 span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
 .admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
 .admonitionblock td.icon .icon-note:before{content:"\f05a";color:#19407c}
 .admonitionblock td.icon .icon-tip:before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
@@ -517,8 +524,8 @@ table.CodeRay td.code>pre{padding:0}
 <div class="details">
 <span id="author" class="author">Rafael Pestano</span><br>
 <span id="email" class="email"><a href="mailto:rmpestano@gmail.com">rmpestano@gmail.com</a></span><br>
-<span id="revnumber">version 3.3,</span>
-<span id="revdate">Mar 17, 2018</span>
+<span id="revnumber">version 3.4,</span>
+<span id="revdate">12-08-2019</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -541,7 +548,7 @@ table.CodeRay td.code>pre{padding:0}
 <li><a href="#_blog">Blog</a></li>
 </ul>
 </li>
-<li><a href="#_conferences_presentations">Conferences &amp; Presentations</a></li>
+<li><a href="#_conference_presentations">Conference presentations</a></li>
 <li><a href="#_community">Community</a></li>
 <li><a href="#_languages_skills">Languages Skills</a></li>
 <li><a href="#_education">Education</a>
@@ -557,7 +564,7 @@ table.CodeRay td.code>pre{padding:0}
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p><span class="icon"><i class="fa fa-file-pdf-o"></i></span> Read this resume <a href="http://rmpestano.github.io/resume/index.pdf" class="external" target="_blank">in PDF here</a>.<br></p>
+<p><span class="icon"><i class="fa fa-file-pdf-o"></i></span> Read this resume <a href="http://rmpestano.github.io/resume/index.pdf" class="external" target="_blank" rel="noopener">in PDF here</a>.<br></p>
 </div>
 <h2 id="_software_engineer_developer" class="discrete">Software Engineer / Developer</h2>
 <div class="sidebarblock">
@@ -572,7 +579,7 @@ table.CodeRay td.code>pre{padding:0}
 <p>I have a bachelor degree of <a href="http://rmpestano.github.io/resume/#_education">Computer Science</a> and I am a Software Developer since <strong>2007</strong>.<br></p>
 </div>
 <div class="paragraph">
-<p>I&#8217;m actually working as a software engineer at <a href="http://www.procergs.rs.gov.br/" target="_blank">PROCERGS</a>.<br></p>
+<p>I&#8217;m actually working as a software engineer at <a href="http://www.procergs.rs.gov.br/" target="_blank" rel="noopener">PROCERGS</a>.<br></p>
 </div>
 <div class="paragraph">
 <p>I am very passionate about IT and Open Source and I contribute to <a href="http://rmpestano.github.io/resume#_open_source">Open Source projects</a> in many ways.<br></p>
@@ -581,10 +588,10 @@ table.CodeRay td.code>pre{padding:0}
 <p>I attend and speak at <a href="http://rmpestano.github.io/resume/#_conferences_presentations">conferences</a> on <strong>Java EE</strong>, like The Developers Conference and I also <a href="http://rmpestano.github.io/resume/#_community">engage with community</a>.<br></p>
 </div>
 <div class="paragraph">
-<p>I blog about Java EE and related technologies on my <a href="http://rpestano.wordpress.com" target="_blank">personal blog</a>.</p>
+<p>I blog about Java EE and related technologies on my <a href="http://rpestano.wordpress.com" target="_blank" rel="noopener">personal blog</a>.</p>
 </div>
 <div class="paragraph">
-<p>I&#8217;m mainly working with Java enterprise web related technologies for about 10 years, I have experience with agile methodologies and strong background on testing.</p>
+<p>I&#8217;m mainly working with Java enterprise web related technologies for 10+ years, I have experience with agile methodologies and strong background on testing.</p>
 </div>
 </div>
 </div>
@@ -634,8 +641,9 @@ table.CodeRay td.code>pre{padding:0}
 <div class="sectionbody">
 <div class="paragraph">
 <p><code>Name:</code> Rafael Mauricio Pestano<br>
-<code>WebSite / Social Media:</code> <a href="http://rpestano.wordpress.com">blog</a> / <span class="icon external"><a class="image" href="https://github.com/rmpestano" target="_blank"><i class="fa fa-github"></i></a></span> / <span class="icon external"><a class="image" href="https://twitter.com/realpestano" target="_blank"><i class="fa fa-twitter"></i></a></span><br>
-<code>Location:</code> <a href="https://goo.gl/maps/NpRTv" class="external" target="_blank">Porto Alegre, RS, Brazil</a><br></p>
+<code>WebSite / Social Media:</code> <a href="http://rpestano.wordpress.com">blog</a> / <span class="icon external"><a class="image" href="https://github.com/rmpestano" target="_blank" rel="noopener"><i class="fa fa-github"></i></a></span> / <span class="icon external"><a class="image" href="https://twitter.com/realpestano" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a></span><br>
+<code>Location:</code> <a href="https://goo.gl/maps/NpRTv" class="external" target="_blank" rel="noopener">Porto Alegre, RS, Brazil</a><br>
+<code>Phone:</code> +55 51 995197436</p>
 </div>
 </div>
 </div>
@@ -646,7 +654,7 @@ table.CodeRay td.code>pre{padding:0}
 <h3 id="_java_ee_engineer_developer_at_procergs"><a class="anchor" href="#_java_ee_engineer_developer_at_procergs"></a>Java EE Engineer / Developer at PROCERGS</h3>
 <div class="paragraph">
 <p><span class="icon"><i class="fa fa-calendar" title="Period"></i></span> <em>August 2011 to Now (On going)</em><br>
-<span class="icon"><i class="fa fa-group" title="Employee"></i></span> <a href="http://www.procergs.rs.gov.br/" class="external" target="_blank">PROCERGS - Data processing company of the State of Rio Grande do Sul</a><br></p>
+<span class="icon"><i class="fa fa-group" title="Employee"></i></span> <a href="http://www.procergs.rs.gov.br/" class="external" target="_blank" rel="noopener">PROCERGS - Data processing company of the State of Rio Grande do Sul</a><br></p>
 </div>
 <div class="openblock">
 <div class="content">
@@ -682,10 +690,10 @@ Position
 <p>Migration of legacy technology to service based architecture</p>
 </li>
 <li>
-<p>Helps maintain infrastructure tools like <a href="https://wso2.com/" target="_blank">WSO2</a>, <a href="https://www.appdynamics.com/" target="_blank">AppDynamics</a>, <a href="https://jenkins.io/" target="_blank">Jenkins</a>, <a href="http://www.sonarqube.org/" target="_blank">Sonar</a> and <a href="https://www.jfrog.com/open-source/" target="_blank">Artifactory</a></p>
+<p>Helps maintain infrastructure tools like <a href="https://wso2.com/" target="_blank" rel="noopener">WSO2</a>, <a href="https://www.appdynamics.com/" target="_blank" rel="noopener">AppDynamics</a>, <a href="https://jenkins.io/" target="_blank" rel="noopener">Jenkins</a>, <a href="http://www.sonarqube.org/" target="_blank" rel="noopener">Sonar</a> and <a href="https://www.jfrog.com/open-source/" target="_blank" rel="noopener">Artifactory</a></p>
 </li>
 <li>
-<p>Develop and maintain an internal (devops) tool to help developers in <em>App Servers management</em> (deploy applications, view logs, start/stop apps, logging configuration, create system props etc&#8230;&#8203;)</p>
+<p>Develop and maintain an internal (devops) tool to help developers in <em>App Servers management</em> (deploy applications, view logs, start/stop apps, logging configuration, create system props, enable blue/green deployment etc&#8230;&#8203;)</p>
 </li>
 <li>
 <p>Write documentation and blog about best practices</p>
@@ -694,7 +702,7 @@ Position
 <p>Drive/help teams to build delivery pipelines on Jenkins</p>
 </li>
 <li>
-<p>Migration of legacy applications (JavaEE 5 or below) to new stack (Java EE 7)</p>
+<p>Migration of legacy applications (JavaEE 5 or below) to new stack (Java EE 7/8)</p>
 </li>
 <li>
 <p>worked 3 years (2011-2014) in internal software factory using scrum</p>
@@ -752,13 +760,25 @@ Position
 </li>
 </ul>
 </div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Currently internalizing an internal cloud solution based on Kubernetes (PKS).
+</td>
+</tr>
+</table>
+</div>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_java_developer_at_advancedit"><a class="anchor" href="#_java_developer_at_advancedit"></a>Java Developer at AdvancedIt</h3>
 <div class="paragraph">
 <p><span class="icon"><i class="fa fa-calendar" title="Period"></i></span> <em>November 2010 to August 2011</em><br>
-<span class="icon"><i class="fa fa-group" title="Employee"></i></span> <a href="http://www.advancedit.com.br/" class="external" target="_blank">AdvancedIt - Intelligence in information technology</a><br></p>
+<span class="icon"><i class="fa fa-group" title="Employee"></i></span> <a href="http://www.advancedit.com.br/" class="external" target="_blank" rel="noopener">AdvancedIt - Intelligence in information technology</a><br></p>
 </div>
 <div class="openblock">
 <div class="content">
@@ -818,7 +838,7 @@ Position
 <h3 id="_java_developer_at_e_core"><a class="anchor" href="#_java_developer_at_e_core"></a>Java Developer at e-Core</h3>
 <div class="paragraph">
 <p><span class="icon"><i class="fa fa-calendar" title="Period"></i></span> <em>April 2010 to November 2010</em><br>
-<span class="icon"><i class="fa fa-group" title="Employee"></i></span> <a href="http://e-core.com/br/" class="external" target="_blank">e-Core - Atlassian platinum partner</a><br></p>
+<span class="icon"><i class="fa fa-group" title="Employee"></i></span> <a href="http://e-core.com/br/" class="external" target="_blank" rel="noopener">e-Core - Atlassian platinum partner</a><br></p>
 </div>
 <div class="openblock">
 <div class="content">
@@ -897,7 +917,7 @@ Position
 <h3 id="_java_trainee_at_jfrs"><a class="anchor" href="#_java_trainee_at_jfrs"></a>Java trainee at JFRS</h3>
 <div class="paragraph">
 <p><span class="icon"><i class="fa fa-calendar" title="Period"></i></span> <em>October 2008 to April 2010</em><br>
-<span class="icon"><i class="fa fa-group" title="Trainee"></i></span> <a href="http://www.jfrs.jus.br/" class="external" target="_blank">JFRS - Justiça Federal</a><br></p>
+<span class="icon"><i class="fa fa-group" title="Trainee"></i></span> <a href="http://www.jfrs.jus.br/" class="external" target="_blank" rel="noopener">JFRS - Justiça Federal</a><br></p>
 </div>
 <div class="openblock">
 <div class="content">
@@ -979,7 +999,7 @@ Position
 </dd>
 <dt class="hdlist1">Frameworks and Libraries</dt>
 <dd>
-<p><strong>Java EE</strong> (JSF, BV, JPA, EJB, CDI, JAX-RS, Servlet, JSP), J2EE, <a href="http://arquillian.org" target="_blank"><strong>Arquillian</strong></a>, <a href="http://forge.jboss.org/" target="_blank">JBoss Forge</a>, <a href="https://deltaspike.apache.org/" target="_blank"><strong>Apache DeltaSpike</strong></a>, <a href="http://primefaces.org" target="_blank">Primefaces</a>, <a href="http://gatling.io/" target="_blank">Gatling</a>.</p>
+<p><strong>Java EE</strong> (JSF, BV, JPA, EJB, CDI, JAX-RS, Servlet, JSP), J2EE, <a href="http://arquillian.org" target="_blank" rel="noopener"><strong>Arquillian</strong></a>, <a href="http://forge.jboss.org/" target="_blank" rel="noopener">JBoss Forge</a>, <a href="https://deltaspike.apache.org/" target="_blank" rel="noopener"><strong>Apache DeltaSpike</strong></a>, <a href="http://primefaces.org" target="_blank" rel="noopener">Primefaces</a>, <a href="http://gatling.io/" target="_blank" rel="noopener">Gatling</a>.</p>
 </dd>
 <dt class="hdlist1">OS</dt>
 <dd>
@@ -995,11 +1015,11 @@ Position
 </dd>
 <dt class="hdlist1">Tools</dt>
 <dd>
-<p>Eclipse, <strong>IntelliJ</strong>, Netbeans, Maven, JIRA, Redmine, Subversion, <strong>Git</strong>, <strong>Asciidoctor</strong>, JMeter/Gatling, Jenkins, Sonar, Artifactory, WSO2 and AppDynamics</p>
+<p>Eclipse, IntelliJ, Netbeans, Maven, JIRA, Redmine, Subversion, Git, Asciidoctor, JMeter/Gatling, Jenkins, Sonar, Artifactory, WSO2 and AppDynamics</p>
 </dd>
 <dt class="hdlist1">Cloud</dt>
 <dd>
-<p>Openshift, travisci</p>
+<p>PKS, Openshift, travisci</p>
 </dd>
 <dt class="hdlist1">ADLM</dt>
 <dd>
@@ -1021,7 +1041,7 @@ Position
 </dl>
 </div>
 <div class="paragraph">
-<p>My general OSS activity can be found on <a href="https://github.com/rmpestano" target="_blank">Github here</a>.</p>
+<p>My general OSS activity can be found on <a href="https://github.com/rmpestano" target="_blank" rel="noopener">Github here</a>.</p>
 </div>
 <div class="paragraph">
 <p>Following is notable projects I&#8217;ve created and maintain:</p>
@@ -1029,22 +1049,22 @@ Position
 <div class="ulist">
 <ul>
 <li>
-<p><a href="http://github.com/rmpestano/cukedoctor" target="_blank">Cukedoctor</a>: BDD living documentation tool</p>
+<p><a href="http://github.com/rmpestano/cukedoctor" target="_blank" rel="noopener">Cukedoctor</a>: BDD living documentation tool</p>
 </li>
 <li>
-<p><a href="https://database-rider.github.io/database-rider/" target="_blank">Database Rider (formerly named DBUnit Rules)</a>: Database testing tool for JUnit</p>
+<p><a href="https://database-rider.github.io/database-rider/" target="_blank" rel="noopener">Database Rider (formerly named DBUnit Rules)</a>: Database testing tool for JUnit</p>
 </li>
 <li>
-<p><a href="http://github.com/adminfaces/" target="_blank">AdminFaces</a>: A premium responsive JSF template and Primefaces theme based on Bootstrap and AdminLTE</p>
+<p><a href="http://github.com/adminfaces/" target="_blank" rel="noopener">AdminFaces</a>: A premium responsive JSF template and Primefaces theme based on Bootstrap and AdminLTE</p>
 </li>
 <li>
-<p><a href="https://wiki.jenkins.io/display/JENKINS/Last+Changes+Plugin" target="_blank">LastChanges</a>: A plugin which generates rich HTML diffs for <strong>Jenkins</strong> builds</p>
+<p><a href="https://wiki.jenkins.io/display/JENKINS/Last+Changes+Plugin" target="_blank" rel="noopener">LastChanges</a>: A plugin which generates rich HTML diffs for <strong>Jenkins</strong> builds</p>
 </li>
 <li>
-<p><a href="https://rsjug.github.io/site/" target="_blank">RSJug</a>: <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> based site for our local Jug</p>
+<p><a href="https://rsjug.github.io/site/" target="_blank" rel="noopener">RSJug</a>: <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> based site for our local Jug</p>
 </li>
 <li>
-<p><a href="http://conventions.github.io/home" target="_blank">Conventions framework</a>: Academical homegrown framework based on JavaEE 6 (NOT maintained anymore).</p>
+<p><a href="http://conventions.github.io/home" target="_blank" rel="noopener">Conventions framework</a>: Academical homegrown framework based on JavaEE 6 (NOT maintained anymore).</p>
 </li>
 </ul>
 </div>
@@ -1060,7 +1080,7 @@ Position
 <div class="ulist">
 <ul>
 <li>
-<p><a href="http://www.lume.ufrgs.br/handle/10183/110332" class="external" target="_blank">Towards a Software Metric for OSGi</a> - Quality analysis in modular applications.</p>
+<p><a href="http://www.lume.ufrgs.br/handle/10183/110332" class="external" target="_blank" rel="noopener">Towards a Software Metric for OSGi</a> - Quality analysis in modular applications.</p>
 </li>
 </ul>
 </div>
@@ -1069,16 +1089,26 @@ Position
 <div class="sect2">
 <h3 id="_blog"><a class="anchor" href="#_blog"></a>Blog</h3>
 <div class="paragraph">
-<p>I frequently write blog posts at <a href="http://rpestano.wordpress.com/" class="external" target="_blank">rpestano.wordpress.com</a>.</p>
+<p>I frequently write blog posts at <a href="http://rpestano.wordpress.com/" class="external" target="_blank" rel="noopener">rpestano.wordpress.com</a>.</p>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_conferences_presentations"><a class="anchor" href="#_conferences_presentations"></a>Conferences &amp; Presentations</h2>
+<h2 id="_conference_presentations"><a class="anchor" href="#_conference_presentations"></a>Conference presentations</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
+<li>
+<p>TDC 2018, Porto Alegre, Dezember 2018</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Presented <a href="http://rmpestano.github.io/talks/slides/tdc-dbunit/index.html#/">Testing your persistence layer with Database Rider</a></p>
+</li>
+</ul>
+</div>
+</li>
 <li>
 <p>TDC 2017, Porto Alegre, November 2017</p>
 <div class="ulist">
@@ -1117,13 +1147,10 @@ Position
 <div class="ulist">
 <ul>
 <li>
-<p>Presented <a href="http://pt.slideshare.net/rmpestano/presentation-40379978" class="external" target="_blank">Enterprise testing using Arquillian</a></p>
+<p>Presented <a href="http://pt.slideshare.net/rmpestano/presentation-40379978" class="external" target="_blank" rel="noopener">Enterprise testing using Arquillian</a></p>
 </li>
 </ul>
 </div>
-</li>
-<li>
-<p>Braziljs, Porto Alegre, August 2012</p>
 </li>
 </ul>
 </div>
@@ -1161,7 +1188,7 @@ Position
 <div class="sect2">
 <h3 id="_federal_university_of_rio_grande_do_sul_porto_alegre_brazil"><a class="anchor" href="#_federal_university_of_rio_grande_do_sul_porto_alegre_brazil"></a>Federal University of Rio Grande do Sul, Porto Alegre, Brazil</h3>
 <div class="paragraph">
-<p><a href="http://www.ufrgs.br/" class="external" target="_blank">UFRGS</a><br></p>
+<p><a href="http://www.ufrgs.br/" class="external" target="_blank" rel="noopener">UFRGS</a><br></p>
 </div>
 <div class="paragraph">
 <p><span class="icon"><i class="fa fa-calendar" title="Period"></i></span> <em>2005-2014</em> - <strong>Bachelor Degree</strong><br></p>
@@ -1175,7 +1202,7 @@ Position
 <div class="ulist">
 <ul>
 <li>
-<p>Sport : Football (soccer) and weight/strength Training</p>
+<p>Sport : Football (soccer), weight/strength Training and running</p>
 </li>
 <li>
 <p>TV Shows: The walking dead, Prison break, Stranger Things etc&#8230;&#8203;</p>
@@ -1184,13 +1211,16 @@ Position
 <p>New technologies, Open Source</p>
 </li>
 <li>
-<p>Family (Father of two beatiful little girls)</p>
+<p>Family (Father of two beautiful little girls)</p>
 </li>
 <li>
 <p>Beer</p>
 </li>
 <li>
 <p>Music</p>
+</li>
+<li>
+<p>Charcuterie (home made sausages lover)</p>
 </li>
 </ul>
 </div>
@@ -1199,8 +1229,8 @@ Position
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 3.3<br>
-Last updated 2018-03-17 20:59:06 UTC
+Version 3.4<br>
+Last updated 2019-08-12 12:21:16 UTC
 </div>
 </div>
 </body>
