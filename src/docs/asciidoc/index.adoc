@@ -70,7 +70,7 @@ I like to focus my work on coding/testing, deal with infrastructure (devops), pr
 
 I have a bachelor degree of {link-resume}/#_education[Computer Science] and I am a Software Developer since *2007*. +
 
-I'm actually working as a software engineer at {link-procergs}[PROCERGS^]. +
+I'm actually working as a software engineer at {link-mobi}[Mobiquity^]. +
 
 I am very passionate about IT and +Open Source+ and I contribute to {link-resume}#_open_source[Open Source projects] in many ways. +
 
@@ -250,7 +250,7 @@ Application Servers:: *JBoss EAP 6/7*, *WildFly 8/10*, Glassfish/Payara, Bea Web
 
 Frameworks and Libraries:: *Java EE* (JSF, BV, JPA, EJB, CDI, JAX-RS, Servlet, JSP), J2EE, http://arquillian.org[*Arquillian*^], http://forge.jboss.org/[JBoss Forge^], https://deltaspike.apache.org/[*Apache DeltaSpike*^], http://primefaces.org[Primefaces^], http://gatling.io/[Gatling^].
 
-OS:: Linux (*Ubuntu*/Fedora) and Windows
+OS:: Linux (*Ubuntu*/Fedora), MacOS and Windows
 
 Databases:: Oracle, Postgress, MySQL and HSQLDB/H2
 
@@ -296,7 +296,7 @@ I frequently write blog posts at http://rpestano.wordpress.com/[rpestano.wordpre
 
 == Conference presentations
 
-* TDC 2018, Porto Alegre, Dezember 2018
+* TDC 2018, Porto Alegre, December 2018
 ** Presented http://rmpestano.github.io/talks/slides/tdc-dbunit/index.html#/[Testing your persistence layer with Database Rider]
 * TDC 2017, Porto Alegre, November 2017
 ** Presented http://rmpestano.github.io/talks/slides/javaee-pipeline/index-en.html[JavaEE Pipeline as code with Docker, Jenkins and Sonar]
@@ -312,7 +312,7 @@ My presentations slides can be found here: http://rmpestano.github.io/talks/
 
 == Community
 
-I am one of the coordinators of {link-rsjug}[Java user group of Rio Grade do Sul] (The first Brazilian JUG).
+I was one of the coordinators of {link-rsjug}[Java user group of Rio Grade do Sul] (The first Brazilian JUG), from 2015 to 2019.
 
 == Languages Skills
 
