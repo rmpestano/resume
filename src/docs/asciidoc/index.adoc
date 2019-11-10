@@ -74,7 +74,7 @@ I'm actually working as a software engineer at {link-procergs}[PROCERGS^]. +
 
 I am very passionate about IT and +Open Source+ and I contribute to {link-resume}#_open_source[Open Source projects] in many ways. +
 
-I attend and speak at {link-resume}/#_conferences_presentations[conferences] on *Java EE*, like The Developers Conference and I also {link-resume}/#_community[engage with community]. +
+I attend and speak at {link-resume}/#_conferences_presentations[conferences] on *Java Enterprise and JVM*, like The Developers Conference and I also {link-resume}/#_community[engage with community]. +
 
 I blog about Java Enterprise and related technologies on my {link-blog}[personal blog^].
 
