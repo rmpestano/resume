@@ -16,4 +16,4 @@ after_script: mvn -q scm-publish:publish-scm
 env:
   global:
   - secure: Ja+1lEUxaCRQBICd4gZNbyXferjg+yJFRsduB6a4JvpuhhemZLRoDVrBq8zM18FGx6fkT3Oe10L2nuGAc2msoTFZtFQlORdisGkuItROVZ3knwgAeR04MxZ6ekZy393pnA2XXxggfHA90NcXoCpu7TX4YHYq4m8bqzmizrQXKHo=
-  - secure: N2Z8j5Gt3LqSZ8iYZN82M4X/WSXOO/3QXl3eA7XF758d0JnAyclEbpJKMQcVWop8oaLV8nmHxdKNXtkpNW3D8p3zlaIU688GbmGUBdR3zk+dWDxHU2EmA2ieyOT/27JKDSuMYwz/umGJ2i5tPpHWTAIPd/fBChNHLlweABNRy1g=
+  - secure: fsrP1eHml0EBoyzKAQ5Aq3kioATrzU70F0GoFNM9i8nA7IaqFO9Y8GCfcPs73/OEN7pfmPCqSvPRNlrbRC7RPlVbMYEUm36cPKPSvKh63xooqmWAcfU3Q+nRflE7hCn7bGY6OCybSxXVhfU2uddLVMT5OO0wGZxzdhuh2AAMnRc=
