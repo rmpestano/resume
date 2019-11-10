@@ -17,12 +17,14 @@ Kismet Chameleon <kismet@asciidoctor.org>
 
 
 :link-ufrgs: http://www.ufrgs.br/
+:link-mobi: https://www.mobiquity.com/about-us
 :link-procergs: http://www.procergs.rs.gov.br/
 :link-jfrs: http://www.jfrs.jus.br/
 :link-adv: http://www.advancedit.com.br/
 :link-ecore: http://e-core.com/br/
 
-:link-home: https://goo.gl/maps/NpRTv
+:link-poa: https://goo.gl/maps/NpRTv
+:link-ams: https://goo.gl/maps/CSs2qjtjradQpKbe6
 :link-rsjug: http://www.rsjug.org/
 :link-rsjug-site: https://rsjug.github.io/site/
 
@@ -62,7 +64,7 @@ endif::[]
 
 ****
 
-I'm a *Software Engineer/Developer* who works on *Java EE* platform and related technologies. +
+I'm a *Software Engineer/Developer* who works on *Java enterprise* applications using technologies such as `JakartaEE`, `MicroProfile` and `Spring/SpringBoot`. +
 
 I like to focus my work on coding/testing, deal with infrastructure (devops), prospecting new technologies, evangelizing and sharing knowledge with teammates and community.
 
@@ -82,7 +84,9 @@ I'm mainly working with Java enterprise web related technologies for 10+ years, 
 
 == Main interests
 
-* Java EE
+* Jakarta EE
+* Spring
+* SpringBoot
 * Open source
 * Agile methodologies
 * Testing (junit/Arquillian/BDD)
@@ -97,15 +101,26 @@ I'm mainly working with Java enterprise web related technologies for 10+ years, 
 
 `Name:` Rafael Mauricio Pestano +
 `WebSite / Social Media:` {link-blog}[blog] / icon:github[link={link-github}, role="external", window="_blank", alt="@rmpestano"] / icon:twitter[link={link-twitter}, role="external", window="_blank", alt="@realpestano"] +
-`Location:` {link-home}["Porto Alegre, RS, Brazil", role="external", window="_blank"] +
-`Phone:` +55 51 995197436 
- 
+`Location:` {link-ams}["Amsterdam, Netherlands", role="external", window="_blank"] +
+
 == Professional Experience
+
+=== Backend Engineer at Mobiquity Inc
+
+icon:calendar[title="Period"] _November 2019 to Now (on going)_ +
+icon:group[title="Employeer"] {link-mobi}[Mobiquity Inc - Global digital consultancy, role="external", window="_blank"] +
+icon:map-marker[title="Location"] {link-ams}["Amsterdam, Netherlands", role="external", window="_blank"] +
+--
+[horizontal]
+Position:: *Backend Engineer - SpringBoot - Agile - DevOps* +
+--
+
 
 === Java EE Engineer / Developer at PROCERGS
 
-icon:calendar[title="Period"] _August 2011 to Now (On going)_ +
-icon:group[title="Employee"] {link-procergs}[PROCERGS - Data processing company of the State of Rio Grande do Sul, role="external", window="_blank"] +
+icon:calendar[title="Period"] _August 2011 to October 2019_ +
+icon:group[title="Employeer"] {link-procergs}[PROCERGS - Data processing company of the State of Rio Grande do Sul, role="external", window="_blank"] +
+icon:map-marker[title="Location"] {link-poa}["Porto Alegre, RS, Brazil", role="external", window="_blank"] +
 
 --
 [horizontal]
@@ -148,7 +163,8 @@ TIP: Currently internalizing an internal cloud solution based on Kubernetes (PKS
 === Java Developer at AdvancedIt
 
 icon:calendar[title="Period"] _November 2010 to August 2011_ +
-icon:group[title="Employee"] {link-adv}[AdvancedIt - Intelligence in information technology, role="external", window="_blank"] +
+icon:group[title="Employeer"] {link-adv}[AdvancedIt - Intelligence in information technology, role="external", window="_blank"] +
+icon:map-marker[title="Location"] {link-poa}["Porto Alegre, RS, Brazil", role="external", window="_blank"] +
 
 --
 [horizontal]
@@ -171,7 +187,8 @@ Position:: *Java Developer* +
 === Java Developer at e-Core
 
 icon:calendar[title="Period"] _April 2010 to November 2010_ +
-icon:group[title="Employee"] {link-ecore}[e-Core - Atlassian platinum partner, role="external", window="_blank"] +
+icon:group[title="Employeer"] {link-ecore}[e-Core - Atlassian platinum partner, role="external", window="_blank"] +
+icon:map-marker[title="Location"] {link-poa}["Porto Alegre, RS, Brazil", role="external", window="_blank"] +
 
 --
 [horizontal]
@@ -200,7 +217,7 @@ Position:: *Java Developer* +
 
 icon:calendar[title="Period"] _October 2008 to April 2010_ +
 icon:group[title="Trainee"] {link-jfrs}[JFRS - Justiça Federal, role="external", window="_blank"] +
-
+icon:map-marker[title="Location"] {link-poa}["Porto Alegre, RS, Brazil", role="external", window="_blank"] +
 --
 [horizontal]
 Position:: *Java Trainee* +
