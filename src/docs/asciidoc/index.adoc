@@ -2,7 +2,7 @@
 Rafael Pestano <rmpestano@gmail.com>
 Kismet Chameleon <kismet@asciidoctor.org>
 :revnumber: {version} 
-:revdate: Aug 2019
+:revdate: Nov 2019
 :icons: font
 :linkattrs:
 :sectanchors:
