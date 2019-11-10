@@ -76,7 +76,7 @@ I am very passionate about IT and +Open Source+ and I contribute to {link-resume
 
 I attend and speak at {link-resume}/#_conferences_presentations[conferences] on *Java EE*, like The Developers Conference and I also {link-resume}/#_community[engage with community]. +
 
-I blog about Java EE and related technologies on my {link-blog}[personal blog^].
+I blog about Java Enterprise and related technologies on my {link-blog}[personal blog^].
 
 I'm mainly working with Java enterprise web related technologies for 10+ years, I have experience with agile methodologies and strong background on testing.
 
@@ -141,7 +141,7 @@ Position:: *Software Engineer - Java EE - Agile - DevOps* +
 
 ==== Used technologies
 
-* JavaEE 6/7 stack (mainly EJB, CDI, JSF, JPA/Hibernate)
+* JavaEE 6/7 stack (mainly EJB, CDI, JaxRS/RestEasy/Jersey, JSF, JPA/Hibernate)
 * Primefaces / Richfaces
 * Arquillian / Cucumber / Selenium / Junit (tests)
 * Asciidoctor (Documentation)
