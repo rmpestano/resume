@@ -84,7 +84,7 @@ I'm mainly working with Java enterprise web related technologies for 10+ years, 
 
 == Main interests
 
-* Jakarta EE
+* Jakarta EE/ MicroProfile
 * Spring
 * SpringBoot
 * Open source
@@ -112,9 +112,25 @@ icon:group[title="Employeer"] {link-mobi}[Mobiquity Inc - Global digital consult
 icon:map-marker[title="Location"] {link-ams}["Amsterdam, Netherlands", role="external", window="_blank"] +
 --
 [horizontal]
-Position:: *Backend Engineer - SpringBoot - Agile - DevOps* +
+Position:: *Senior Backend Engineer - Spring/SpringBoot - Agile - DevOps* +
+
+* Develop rest APIs consumed by multiple banks and health insurance providers in the Netherlands
+* Write BDD tests (in Kotlin) for verifying functionality (DoD)
+* Use agile methodologies/ceremonies such as Scrum
+* Work in a cloud based infrastructure provided by AWS
 --
 
+
+==== Used technologies
+
+* Java 11
+* Spring 5 and SpringBoot 2
+* ADLM: Jira/Jenkins/GitHub
+* Sonar
+* Elastic Search
+* Cucumber
+* Kotlin
+* AWS: S3/SQS/DynamoDB
 
 === Java EE Engineer / Developer at PROCERGS
 

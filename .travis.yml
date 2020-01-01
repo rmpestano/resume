@@ -10,10 +10,7 @@ before_script:
 - git config --global user.email rmpestano@gmail.com
 script:
 - mvn clean package
-
 after_script: mvn -q scm-publish:publish-scm
-
 env:
   global:
-  - secure: Ja+1lEUxaCRQBICd4gZNbyXferjg+yJFRsduB6a4JvpuhhemZLRoDVrBq8zM18FGx6fkT3Oe10L2nuGAc2msoTFZtFQlORdisGkuItROVZ3knwgAeR04MxZ6ekZy393pnA2XXxggfHA90NcXoCpu7TX4YHYq4m8bqzmizrQXKHo=
-  - secure: fsrP1eHml0EBoyzKAQ5Aq3kioATrzU70F0GoFNM9i8nA7IaqFO9Y8GCfcPs73/OEN7pfmPCqSvPRNlrbRC7RPlVbMYEUm36cPKPSvKh63xooqmWAcfU3Q+nRflE7hCn7bGY6OCybSxXVhfU2uddLVMT5OO0wGZxzdhuh2AAMnRc=
+  - secure: U8EbROkfASvjuWB92FmgDlE3OBXEQVKsHhjIQVqXfUN5K0NVTGLyJVs3Pg9Ux90rFFkH40I4WiV6olkp4MrqzLGSTdP2hJXxs0REuDuz5saFGgF+Jxj/RJqsjXvDeGQgAL+Oh8Qw8UnJqSaVSKXH0Q/soLtlYCKtXMwZkxnbk9Y=

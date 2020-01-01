@@ -6,7 +6,7 @@
 
     <groupId>com.rmpestano</groupId>
     <artifactId>resume</artifactId>
-    <version>4.0</version>
+    <version>4.1</version>
 
     <build>
         <plugins>
@@ -88,7 +88,7 @@
                     <checkinComment>Publishing DBUnit Rules Sample documentation.</checkinComment>
                     <content>target/docs</content>
                     <skipDeletedFiles>true</skipDeletedFiles>
-                    <pubScmUrl>scm:git:https://${USER}:${PASS}@github.com/rmpestano/resume.git
+                    <pubScmUrl>scm:git:https://${GH_TOKEN}@github.com/rmpestano/resume.git
                     </pubScmUrl>
                     <scmBranch>gh-pages</scmBranch>
                 </configuration>
