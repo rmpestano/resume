@@ -8,8 +8,10 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: Build & publish
     runs-on: ubuntu-18.04
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
       - uses: actions/checkout@v2
       - name: Set up JDK
@@ -24,26 +26,4 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
       - name: build
-        run: mvn clean package
-
-  publish:
-    name: Publish resume to GH pages
-    runs-on: ubuntu-18.04
-    needs: build
-    env:
-      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-    steps:
-      - uses: actions/checkout@v2
-      - name: Set up JDK
-        uses: actions/setup-java@v2.5.0
-        with:
-          distribution: 'adopt'
-          java-version: '8'
-      - uses: actions/cache@v1
-        with:
-          path: ~/.m2/repository
-          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
-          restore-keys: |
-            ${{ runner.os }}-maven-
-      - name: Publish
-        run: mvn -q scm-publish:publish-scm -DGH_TOKEN=${{ secrets.GH_TOKEN }}
+        run: mvn clean package && mvn -q scm-publish:publish-scm -DGH_TOKEN=${{ secrets.GH_TOKEN }}
