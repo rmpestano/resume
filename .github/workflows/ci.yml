@@ -25,5 +25,9 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-maven-
+      - name: Configure Git user
+        run: |
+          git config --globa user.email "${{ secrets.GIT_EMAIL }}"
+          git config --globa user.name "rmpestano"
       - name: build
         run: mvn clean package && mvn -q scm-publish:publish-scm -DGH_TOKEN=${{ secrets.GH_TOKEN }}
