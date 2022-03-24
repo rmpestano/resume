@@ -2,7 +2,7 @@
 Rafael Pestano <rmpestano@gmail.com>
 Kismet Chameleon <kismet@asciidoctor.org>
 :revnumber: {version} 
-:revdate: Nov 2019
+:revdate: Mar 2022
 :icons: font
 :linkattrs:
 :sectanchors:
@@ -78,24 +78,24 @@ I attend and speak at {link-resume}/#_conferences_presentations[conferences] on 
 
 I blog about Java Enterprise and related technologies on my {link-blog}[personal blog^].
 
-I'm mainly working with Java enterprise web related technologies for 10+ years, I have experience with agile methodologies and strong background on testing.
+I'm mainly working with Java enterprise web related technologies for 13+ years, I have experience with agile methodologies and strong background on testing.
 
 ****
 
 == Main interests
 
 * Jakarta EE/ MicroProfile
-* Spring
-* SpringBoot
+* Spring/ SpringBoot
 * Open source
 * Agile methodologies
-* Testing (junit/Arquillian/BDD)
+* Testing (unit/integration/BDD/Performance)
 * Continuous Delivery
+* Application monitoring, observability and troubleshooting
 * SOA / Microservices
 * Docker and containers related technologies
 * Documentation (Asciidoctor)
 * Functional languages (Kotlin/Groovy)
-* Cloud (AWS and OpenShift)
+* Cloud (AWS, Azure and OpenShift)
 
 == Personal details
 
@@ -114,23 +114,35 @@ icon:map-marker[title="Location"] {link-ams}["Amsterdam, Netherlands", role="ext
 [horizontal]
 Position:: *Senior Backend Engineer - Spring/SpringBoot - Agile - DevOps* +
 
-* Develop rest APIs consumed by multiple banks and health insurance providers in the Netherlands
+Surepay::
+* Develop rest APIs consumed by multiple banks and organisations in the Netherlands
+* Design and create new services from scratch
+* Maintain solutions that deal to large datasets
 * Write BDD tests (in Kotlin) for verifying functionality (DoD)
 * Use agile methodologies/ceremonies such as Scrum
 * Work in a cloud based infrastructure provided by AWS
+* Help the organisation to scale up by doing technical interviews and reviewing code assignments
+
+Mobiquity::
+* Backend competence lead
+** Managing a team of 8 engineers helping them to progress on their careers by setting goals, doing quarter reviews and having 1o1s
+* Help in the organisation hiring process by doing technical and final interviews as well as reviewing code assignments
+
 --
 
 
 ==== Used technologies
 
-* Java 11
+* Java 11 and Java 17
 * Spring 5 and SpringBoot 2
+* Reactive programming (Spring WebFlux)
+* Contract tests (spring cloud contract)
 * ADLM: Jira/Jenkins/GitHub
 * Sonar
 * Elastic Search
-* Cucumber
+* Unit, integration, BDD and performance testing (Junit5, Cucumber and JMeter)
 * Kotlin
-* AWS: S3/SQS/DynamoDB
+* AWS: ECS/S3/SQS/SSM/RDS/Lambdas (SAM)
 
 === Java EE Engineer / Developer at PROCERGS
 
@@ -346,9 +358,10 @@ icon:calendar[title="Period"] _2005-2014_ - *Bachelor Degree* +
 == Personal Interests
 
 * Sport : Football (soccer), weight/strength Training and running
-* TV Shows: The walking dead, Prison break, Stranger Things etc...
+* TV Shows
 * New technologies, Open Source
 * Family (Father of two beautiful little girls)
-* Beer
+* Beer/Homebrewing
+* Baking: bread & pizza
+* Charcuterie (homemade sausages)
 * Music
-* Charcuterie (home made sausages lover)
