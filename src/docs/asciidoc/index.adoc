@@ -2,7 +2,7 @@
 Rafael Pestano <rmpestano@gmail.com>
 Kismet Chameleon <kismet@asciidoctor.org>
 :revnumber: {version} 
-:revdate: Mar 2022
+:revdate: Apr 2022
 :icons: font
 :linkattrs:
 :sectanchors:
@@ -86,9 +86,11 @@ I'm mainly working with Java enterprise web related technologies for 13+ years, 
 
 * Jakarta EE/ MicroProfile
 * Spring/ SpringBoot
+* Reactive programming
 * Open source
 * Agile methodologies
-* Testing (unit/integration/BDD/Performance)
+* Automated Testing
+* API contract tests
 * Continuous Delivery
 * Application monitoring, observability and troubleshooting
 * SOA / Microservices
@@ -105,7 +107,7 @@ I'm mainly working with Java enterprise web related technologies for 13+ years, 
 
 == Professional Experience
 
-=== Backend Engineer at Mobiquity Inc
+=== Principal Backend Engineer & Competence lead at Mobiquity Inc
 
 icon:calendar[title="Period"] _November 2019 to Now (on going)_ +
 icon:group[title="Employeer"] {link-mobi}[Mobiquity Inc - Global digital consultancy, role="external", window="_blank"] +
