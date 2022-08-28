@@ -2,7 +2,7 @@
 Rafael Pestano <rmpestano@gmail.com>
 Kismet Chameleon <kismet@asciidoctor.org>
 :revnumber: {version} 
-:revdate: Apr 2022
+:revdate: Sep 2022
 :icons: font
 :linkattrs:
 :sectanchors:
@@ -22,6 +22,8 @@ Kismet Chameleon <kismet@asciidoctor.org>
 :link-jfrs: http://www.jfrs.jus.br/
 :link-adv: http://www.advancedit.com.br/
 :link-ecore: http://e-core.com/br/
+:link-adyen: https://www.adyen.com/
+
 
 :link-poa: https://goo.gl/maps/NpRTv
 :link-ams: https://goo.gl/maps/CSs2qjtjradQpKbe6
@@ -70,7 +72,7 @@ I like to focus my work on coding/testing, deal with infrastructure (devops), pr
 
 I have a bachelor degree of {link-resume}/#_education[Computer Science] and I am a Software Developer since *2007*. +
 
-I'm actually working as a software engineer at {link-mobi}[Mobiquity^]. +
+I'm actually working as a software engineer at {link-adyen}[Adyen^]. +
 
 I am very passionate about IT and +Open Source+ and I contribute to {link-resume}#_open_source[Open Source projects] in many ways. +
 
@@ -106,6 +108,16 @@ I'm mainly working with Java enterprise web related technologies for 13+ years, 
 `Location:` {link-ams}["Amsterdam, Netherlands", role="external", window="_blank"] +
 
 == Professional Experience
+
+=== Senior Software Engineer at Adyen
+
+icon:calendar[title="Period"] _July 2022 to Now (on going)_ +
+icon:group[title="Employeer"] {link-adyen}[Adyen - Global payment gateway, role="external", window="_blank"] +
+icon:map-marker[title="Location"] {link-ams}["Amsterdam, Netherlands", role="external", window="_blank"] +
+--
+[horizontal]
+Position:: *Senior Software Engineer - Java* +
+--
 
 === Principal Backend Engineer & Competence lead at Mobiquity Inc
 
